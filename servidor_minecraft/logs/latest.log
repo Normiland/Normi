@@ -1,94 +1,1363 @@
-[21Dec2024 00:02:11.975] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50045] logged in with entity id 950 at (-12.5, 63.0, 58.5)
-[21Dec2024 00:02:12.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
-[21Dec2024 00:02:12.129] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
-[21Dec2024 00:02:13.557] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
-[21Dec2024 00:02:13.558] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
-[21Dec2024 00:02:20.780] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[21Dec2024 00:02:21.495] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[21Dec2024 00:02:21.496] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
-[21Dec2024 00:02:35.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[21Dec2024 00:02:54.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR has reached the goal [Feeling Watched]
-[21Dec2024 00:03:06.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> habla we
-[21Dec2024 00:03:29.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[21Dec2024 00:03:38.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by Man From The Fog
-[21Dec2024 00:03:44.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Man From The Fog
-[21Dec2024 00:03:49.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR has made the advancement [Stone Age]
-[21Dec2024 00:03:52.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 was slain by Man From The Fog
-[21Dec2024 00:04:01.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> akab
-[21Dec2024 00:04:10.844] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
-	Index: 8
-	Listeners:
-		0: HIGHEST
-		1: ASM: team.creative.playerrevive.server.ReviveEventServer@53e126f9 playerDied(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		2: NORMAL
-		3: ASM: insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch@270c4750 onDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		4: ASM: com.mrcrayfish.framework.event.ForgeEvents@320dcfc8 onLivingEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		5: ASM: class com.tiviacz.warriorrage.ForgeEventHandler playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		6: ASM: class com.tiviacz.warriorrage.ForgeEventHandler playerSlayMob(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		7: ASM: class net.mcreator.man.procedures.KilledManProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		8: ASM: class net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		9: ASM: class net.xylonity.knightquest.common.item.KQArmorItem$ArmorStatusManagerEvents onLivingDead(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		10: ASM: class net.mcreator.vapor.procedures.VaporDiedProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		11: ASM: class net.mcreator.vapor.procedures.RoseDiedProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		12: ASM: class net.mcreator.gammabeasts.procedures.MuerteEXPProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-		13: LOWEST
-		14: ASM: de.maxhenkel.gravestone.corelib.death.DeathEvents@7a673907 playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
-	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96)
-	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49)
-	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573)
-	at TRANSFORMER/playerrevive@2.0.25/team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89)
-	at TRANSFORMER/playerrevive@2.0.25/team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20)
-	at TRANSFORMER/creativecore@2.11.30/team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14)
-	at TRANSFORMER/creativecore@2.11.30/team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:52)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
-	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[21Dec2024 00:04:10.845] [Server thread/ERROR] [creativecore/]: Executing a packet ran into an exception
-java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
-	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
-	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
-	at net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
-	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89) ~[PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar%23184!/:2.0.25]
-	at team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20) ~[PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar%23184!/:2.0.25]
-	at team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14) ~[CreativeCore_FORGE_v2.11.30_mc1.20.1.jar%23162!/:2.11.30]
-	at team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:52) ~[CreativeCore_FORGE_v2.11.30_mc1.20.1.jar%23162!/:2.11.30]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21Dec2024 00:04:24.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> habla we
+[21Dec2024 01:37:00.713] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[21Dec2024 01:37:00.717] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[21Dec2024 01:37:01.170] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Dec2024 01:37:01.179] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[21Dec2024 01:37:01.199] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[21Dec2024 01:37:01.219] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[21Dec2024 01:37:01.264] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Normi/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
+[21Dec2024 01:37:01.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2024 01:37:01.529] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2024 01:37:01.531] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2024 01:37:01.532] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2024 01:37:01.954] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[21Dec2024 01:37:01.955] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
+[21Dec2024 01:37:02.390] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[21Dec2024 01:37:03.580] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[21Dec2024 01:37:05.175] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Dec2024 01:37:05.404] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Dec2024 01:37:05.652] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 139 options available, 0 override(s) found
+[21Dec2024 01:37:05.702] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 01:37:05.703] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 01:37:05.732] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 01:37:05.743] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 01:37:05.762] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2024 01:37:06.536] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[21Dec2024 01:37:06.536] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[21Dec2024 01:37:06.537] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[21Dec2024 01:37:06.538] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[21Dec2024 01:37:06.539] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[21Dec2024 01:37:06.539] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[21Dec2024 01:37:07.177] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[21Dec2024 01:37:07.177] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor from mod thirst
+[21Dec2024 01:37:07.179] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[21Dec2024 01:37:07.179] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:accessors.create.IFluidDrainingBehaviourAccessor from mod thirst
+[21Dec2024 01:37:07.180] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/SyncedBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity)
+[21Dec2024 01:37:07.180] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity was not found thirst.mixin.json:accessors.farmersdelight.SyncedBlockEntityAccessor from mod thirst
+[21Dec2024 01:37:07.181] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[21Dec2024 01:37:07.181] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity from mod thirst
+[21Dec2024 01:37:07.182] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
+[21Dec2024 01:37:07.183] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe from mod thirst
+[21Dec2024 01:37:07.184] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
+[21Dec2024 01:37:07.184] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout from mod thirst
+[21Dec2024 01:37:07.185] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[21Dec2024 01:37:07.185] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour from mod thirst
+[21Dec2024 01:37:07.186] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
+[21Dec2024 01:37:07.186] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying from mod thirst
+[21Dec2024 01:37:07.188] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
+[21Dec2024 01:37:07.188] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling from mod thirst
+[21Dec2024 01:37:07.189] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation)
+[21Dec2024 01:37:07.189] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation from mod thirst
+[21Dec2024 01:37:07.190] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
+[21Dec2024 01:37:07.190] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe from mod thirst
+[21Dec2024 01:37:07.192] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[21Dec2024 01:37:07.192] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem from mod thirst
+[21Dec2024 01:37:07.193] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ServerConfig (java.lang.ClassNotFoundException: toughasnails.config.ServerConfig)
+[21Dec2024 01:37:07.194] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ServerConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig from mod thirst
+[21Dec2024 01:37:07.195] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[21Dec2024 01:37:07.195] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler from mod thirst
+[21Dec2024 01:37:07.196] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[21Dec2024 01:37:07.196] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl from mod thirst
+[21Dec2024 01:37:07.197] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[21Dec2024 01:37:07.197] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler from mod thirst
+[21Dec2024 01:37:07.717] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[21Dec2024 01:37:14.094] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[21Dec2024 01:37:14.141] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[21Dec2024 01:37:14.166] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[21Dec2024 01:37:14.174] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[21Dec2024 01:37:14.288] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[21Dec2024 01:37:14.561] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[21Dec2024 01:37:14.562] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.16+mc1.20.1-all.jar%23167!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.16+mc1.20.1-all.jar%23167!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.16+mc1.20.1-all.jar%23167!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23203!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23202!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:14.670] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
+[21Dec2024 01:37:14.672] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
+[21Dec2024 01:37:14.687] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
+[21Dec2024 01:37:14.688] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
+[21Dec2024 01:37:14.690] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.Warden
+[21Dec2024 01:37:14.691] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
+[21Dec2024 01:37:14.714] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
+[21Dec2024 01:37:14.716] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
+[21Dec2024 01:37:14.717] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
+[21Dec2024 01:37:14.718] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
+[21Dec2024 01:37:14.720] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
+[21Dec2024 01:37:14.721] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
+[21Dec2024 01:37:14.725] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
+[21Dec2024 01:37:14.726] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
+[21Dec2024 01:37:14.729] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
+[21Dec2024 01:37:14.732] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
+[21Dec2024 01:37:14.735] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
+[21Dec2024 01:37:14.741] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
+[21Dec2024 01:37:14.768] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
+[21Dec2024 01:37:14.797] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
+[21Dec2024 01:37:14.814] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[21Dec2024 01:37:14.814] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[21Dec2024 01:37:14.825] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
+[21Dec2024 01:37:14.828] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
+[21Dec2024 01:37:14.832] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
+[21Dec2024 01:37:14.834] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
+[21Dec2024 01:37:14.844] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
+[21Dec2024 01:37:14.852] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
+[21Dec2024 01:37:14.857] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
+[21Dec2024 01:37:14.858] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
+[21Dec2024 01:37:14.860] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
+[21Dec2024 01:37:14.874] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
+[21Dec2024 01:37:14.877] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
+[21Dec2024 01:37:14.880] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
+[21Dec2024 01:37:14.887] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
+[21Dec2024 01:37:14.888] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosions.AvoidExplosions
+[21Dec2024 01:37:14.894] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
+[21Dec2024 01:37:14.896] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
+[21Dec2024 01:37:14.899] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
+[21Dec2024 01:37:14.901] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
+[21Dec2024 01:37:14.902] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
+[21Dec2024 01:37:14.904] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
+[21Dec2024 01:37:14.905] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
+[21Dec2024 01:37:14.908] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
+[21Dec2024 01:37:14.911] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
+[21Dec2024 01:37:14.928] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
+[21Dec2024 01:37:14.931] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
+[21Dec2024 01:37:14.935] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
+[21Dec2024 01:37:14.937] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
+[21Dec2024 01:37:14.939] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
+[21Dec2024 01:37:14.940] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[21Dec2024 01:37:15.523] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[21Dec2024 01:37:15.523] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[21Dec2024 01:37:16.844] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[21Dec2024 01:37:16.845] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[21Dec2024 01:37:16.846] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[21Dec2024 01:37:17.169] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[21Dec2024 01:37:17.203] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[21Dec2024 01:37:17.233] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
+[21Dec2024 01:37:17.236] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[21Dec2024 01:37:17.248] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[21Dec2024 01:37:17.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[21Dec2024 01:37:17.288] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[21Dec2024 01:37:17.300] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[21Dec2024 01:37:17.302] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[21Dec2024 01:37:17.303] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[21Dec2024 01:37:17.635] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[21Dec2024 01:37:17.641] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[21Dec2024 01:37:17.643] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[21Dec2024 01:37:17.643] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[21Dec2024 01:37:17.686] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[21Dec2024 01:37:17.702] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[21Dec2024 01:37:17.706] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[21Dec2024 01:37:17.708] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[21Dec2024 01:37:17.814] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.814] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.815] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.815] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.815] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.816] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.816] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.816] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.816] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.820] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.820] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.820] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.821] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.821] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:17.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:17.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[21Dec2024 01:37:17.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[21Dec2024 01:37:18.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA_OUTDATED Current: 19.0.2 Target: 19.0.4
+[21Dec2024 01:37:18.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Dec2024 01:37:18.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[21Dec2024 01:37:18.448] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[21Dec2024 01:37:19.144] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Dec2024 01:37:19.772] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.773] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.773] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.773] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.774] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.774] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.774] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.774] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.774] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.775] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.776] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.777] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.778] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.779] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.860] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.861] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.862] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.862] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.863] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.863] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.863] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.864] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.864] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.864] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.865] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.865] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.865] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.865] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.866] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.866] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.867] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.867] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.868] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.868] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.869] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.869] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.869] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.869] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.870] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.870] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.870] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.871] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.871] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.871] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.872] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.872] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.872] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.873] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.873] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.873] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.873] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.874] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:19.874] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[21Dec2024 01:37:19.874] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[21Dec2024 01:37:20.452] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
+[21Dec2024 01:37:20.452] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
+[21Dec2024 01:37:21.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
+[21Dec2024 01:37:21.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[21Dec2024 01:37:21.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
+[21Dec2024 01:37:22.854] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[21Dec2024 01:37:23.349] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_bc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:vodka'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.354] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_fr
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.394] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_fr
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:dandelion_tea'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.402] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_bc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.541] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_bc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.596] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:blocks/sand_filter
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thirst:sand_filter'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.613] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_bc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:mead'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.617] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_fr
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.629] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_fr
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:black_tea'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.634] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_fr
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersdelight:apple_cider'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.643] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_bc
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:beer'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[21Dec2024 01:37:23.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[21Dec2024 01:37:23.913] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[21Dec2024 01:37:23.924] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[21Dec2024 01:37:23.925] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
+[21Dec2024 01:37:23.967] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[21Dec2024 01:37:23.979] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[21Dec2024 01:37:24.013] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1722 advancements
+[21Dec2024 01:37:24.016] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[21Dec2024 01:37:24.047] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[21Dec2024 01:37:24.054] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[21Dec2024 01:37:24.060] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.060] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.061] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.061] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.062] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.062] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.062] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.063] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.063] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.064] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.064] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.064] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.065] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.066] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.066] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[21Dec2024 01:37:24.068] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[21Dec2024 01:37:24.979] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Dec2024 01:37:24.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Dec2024 01:37:24.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Dec2024 01:37:24.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Dec2024 01:37:25.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Dec2024 01:37:25.153] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Dec2024 01:37:25.225] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Dec2024 01:37:25.225] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Dec2024 01:37:25.225] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Dec2024 01:37:25.225] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Dec2024 01:37:25.408] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[21Dec2024 01:37:25.409] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[21Dec2024 01:37:25.410] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[21Dec2024 01:37:25.410] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[21Dec2024 01:37:25.410] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[21Dec2024 01:37:25.411] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[21Dec2024 01:37:25.411] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[21Dec2024 01:37:25.412] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[21Dec2024 01:37:25.412] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[21Dec2024 01:37:25.413] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[21Dec2024 01:37:25.420] [Server thread/INFO] [Framework/]: Loading server configs...
+[21Dec2024 01:37:25.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Dec2024 01:37:30.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Dec2024 01:37:34.237] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.244] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.269] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.279] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.315] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.346] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.359] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:34.568] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2024 01:37:35.047] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[21Dec2024 01:37:35.499] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5453 ms
+[21Dec2024 01:37:35.500] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.262s)! For help, type "help"
+[21Dec2024 01:37:35.532] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Dec2024 01:37:35.544] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21Dec2024 01:37:35.556] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.109.68.31:24454
+[21Dec2024 01:37:41.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:50415] logged in with entity id 93 at (-247.14690062077347, 64.02442408821369, 293.4740397717679)
+[21Dec2024 01:37:41.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
+[21Dec2024 01:37:41.236] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
+[21Dec2024 01:37:41.796] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
+[21Dec2024 01:37:41.798] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
+[21Dec2024 01:37:42.683] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
+[21Dec2024 01:37:43.656] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
+[21Dec2024 01:37:43.660] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
+[21Dec2024 01:37:51.422] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50442] logged in with entity id 358 at (423.69999998807907, 59.0, 2789.819987089811)
+[21Dec2024 01:37:51.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[21Dec2024 01:37:51.472] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[21Dec2024 01:37:52.979] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[21Dec2024 01:37:52.980] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[21Dec2024 01:37:53.897] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 01:37:54.896] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 01:37:54.897] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[21Dec2024 01:37:55.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Spectator Mode]
+[21Dec2024 01:38:13.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 01:39:22.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
+[21Dec2024 01:39:33.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
+[21Dec2024 01:39:45.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> PORQUE SE MUERE
+[21Dec2024 01:41:14.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the time to 1000]
+[21Dec2024 01:41:46.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[21Dec2024 01:41:50.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> q
+[21Dec2024 01:41:59.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 01:42:06.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 01:42:15.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> encontre como un angel de piedra
+[21Dec2024 01:42:25.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> estatua de la diosa
+[21Dec2024 01:42:26.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> eso q
+[21Dec2024 01:45:15.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> donde estas alan
+[21Dec2024 01:45:24.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> en las coords que te dije
+[21Dec2024 01:45:29.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero se borro daa
+[21Dec2024 01:45:47.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> -244 66 346
+[21Dec2024 01:47:21.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y el otro we
+[21Dec2024 01:47:27.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> se fue a bañar
+[21Dec2024 01:47:30.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> al rato vuelve
+[21Dec2024 01:48:09.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que es estatua de la diosa
+[21Dec2024 01:48:26.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> que voy a saber yo loco
+[21Dec2024 01:48:39.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> son tus mods tarado
+[21Dec2024 01:49:00.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the time to 1000]
+[21Dec2024 01:49:07.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> gg
+[21Dec2024 01:49:11.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pues que se yo
+[21Dec2024 01:49:33.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> buen lugar para vivir
+[21Dec2024 01:50:34.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ALDEAAAAAAAAAAA
+[21Dec2024 01:52:03.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ESTATUA MALIGNA
+[21Dec2024 01:52:09.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que significa todo esto
+[21Dec2024 01:52:16.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no sé kbron
+[21Dec2024 01:52:20.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> siquiera donde estás
+[21Dec2024 01:52:28.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> atras tuya
+[21Dec2024 01:52:30.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alnaaaaaaaaaa
+[21Dec2024 01:52:55.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ???????
+[21Dec2024 01:55:40.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> estas bien alan?
+[21Dec2024 01:56:38.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> creo que te ire a buscar con un el carasu we
+[21Dec2024 01:56:46.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lo voy a matar
+[21Dec2024 01:56:49.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> te buscare
+[21Dec2024 01:56:59.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 01:57:58.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 01:58:10.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the time to 1000]
+[21Dec2024 01:58:44.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
+[21Dec2024 01:59:11.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by Crasu
+[21Dec2024 01:59:18.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 was slain by Crasu
+[21Dec2024 01:59:47.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> wey
+[21Dec2024 02:00:00.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> fui a surrar wei
+[21Dec2024 02:00:14.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:00:40.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pasa tus coords ya al pincho
+[21Dec2024 02:00:46.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
+[21Dec2024 02:00:52.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[21Dec2024 02:00:53.524] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[21Dec2024 02:00:53.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[21Dec2024 02:00:53.526] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[21Dec2024 02:00:54.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> te mato
+[21Dec2024 02:04:54.950] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:51777] logged in with entity id 14505 at (-240.8662574530685, 62.0, 295.679578320133)
+[21Dec2024 02:04:54.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[21Dec2024 02:04:54.996] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[21Dec2024 02:04:56.414] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[21Dec2024 02:04:56.415] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[21Dec2024 02:05:00.986] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 02:05:02.087] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 02:05:02.088] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[21Dec2024 02:06:11.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Bison
+[21Dec2024 02:06:24.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was doomed to fall by Bison
+[21Dec2024 02:08:29.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
+[21Dec2024 02:09:20.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava
+[21Dec2024 02:09:49.488] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50528] logged in with entity id 17338 at (-342.30000001192093, 64.0, 2381.1249287915575)
+[21Dec2024 02:09:49.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[21Dec2024 02:09:49.534] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[21Dec2024 02:09:50.478] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[21Dec2024 02:09:50.478] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[21Dec2024 02:09:54.278] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 02:09:55.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 02:09:55.236] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[21Dec2024 02:09:55.633] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-27, y=60, z=54}
+[21Dec2024 02:09:55.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-26, y=62, z=53}
+[21Dec2024 02:09:56.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-28, y=62, z=51}
+[21Dec2024 02:09:56.432] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-26, y=62, z=52}
+[21Dec2024 02:09:57.281] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-26, y=62, z=53}
+[21Dec2024 02:09:57.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-26, y=62, z=52}
+[21Dec2024 02:09:57.433] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-27, y=62, z=52}
+[21Dec2024 02:09:59.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Spider
+[21Dec2024 02:10:03.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[21Dec2024 02:10:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> q
+[21Dec2024 02:10:15.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no nada
+[21Dec2024 02:10:15.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> me bajo un chunk ese mma vrga
+[21Dec2024 02:10:18.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was shot by Skeleton
+[21Dec2024 02:10:19.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 drowned
+[21Dec2024 02:10:25.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was shot by Skeleton
+[21Dec2024 02:10:41.284] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/17352, l='ServerLevel[world]', x=-416.26, y=65.00, z=2399.49] died, message: 'Farmer was slain by Zombie'
+[21Dec2024 02:10:51.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Spider
+[21Dec2024 02:11:02.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Spider
+[21Dec2024 02:11:44.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> duermanse
+[21Dec2024 02:11:50.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> duermansee
+[21Dec2024 02:12:04.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ddddd
+[21Dec2024 02:12:05.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 02:12:11.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan estupido
+[21Dec2024 02:12:13.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 02:12:31.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Zombie
+[21Dec2024 02:12:37.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was doomed to fall by Zombie
+[21Dec2024 02:12:50.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was bitten by Zombie
+[21Dec2024 02:12:51.136] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/17431, l='ServerLevel[world]', x=-407.47, y=64.00, z=2386.21] died, message: 'Mason was shot by Skeleton'
+[21Dec2024 02:13:04.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was bitten by Zombie
+[21Dec2024 02:13:05.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 02:13:12.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 02:14:18.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> mataron al golem
+[21Dec2024 02:14:30.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 02:14:30.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> nos estan detonando
+[21Dec2024 02:14:38.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 02:14:44.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> hago de dia o nopis
+[21Dec2024 02:15:23.071] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/17393, l='ServerLevel[world]', x=-342.98, y=65.00, z=2379.70] died, message: 'Nitwit was slain by Zombie'
+[21Dec2024 02:16:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR hit the ground too hard
+[21Dec2024 02:16:22.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR hit the ground too hard
+[21Dec2024 02:16:41.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[21Dec2024 02:16:47.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['Angry Creeper'/20189, l='ServerLevel[world]', x=-340.75, y=68.00, z=2333.73] died: Angry Creeper was slain by Doglas777
+[21Dec2024 02:16:48.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[21Dec2024 02:16:54.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[21Dec2024 02:17:45.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:17:52.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Zombie
+[21Dec2024 02:17:58.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Zombie
+[21Dec2024 02:17:59.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:18:06.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[21Dec2024 02:18:09.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ahora si voy por ti
+[21Dec2024 02:18:12.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pasa cordenadas
+[21Dec2024 02:18:15.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 02:18:32.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Best Friends Forever]
+[21Dec2024 02:18:51.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pasa cordenadas alan
+[21Dec2024 02:19:02.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ya te las pasé 7 evces loco
+[21Dec2024 02:19:11.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qye se borran
+[21Dec2024 02:19:21.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> -219 65 307
+[21Dec2024 02:19:55.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR hit the ground too hard
+[21Dec2024 02:20:01.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR hit the ground too hard
+[21Dec2024 02:24:16.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7 timed out
+[21Dec2024 02:24:16.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player tacaz1707
+[21Dec2024 02:24:16.424] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[21Dec2024 02:24:26.680] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
+[21Dec2024 02:24:26.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[21Dec2024 02:24:26.681] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[21Dec2024 02:24:26.724] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21Dec2024 02:24:28.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:24:56.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:26:41.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> que rollo
+[21Dec2024 02:26:48.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
+[21Dec2024 02:26:54.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q
+[21Dec2024 02:26:57.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> al wey le sale error
+[21Dec2024 02:27:13.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ya no
+[21Dec2024 02:27:27.326] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:56149] logged in with entity id 28701 at (-319.02817338847115, 51.0, 466.69999998807907)
+[21Dec2024 02:27:27.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[21Dec2024 02:27:27.371] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[21Dec2024 02:27:27.570] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[21Dec2024 02:27:27.570] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[21Dec2024 02:27:30.359] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 02:27:31.360] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 02:27:31.361] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[21Dec2024 02:27:33.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya te vi
+[21Dec2024 02:27:58.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> donde estas alan
+[21Dec2024 02:28:19.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> aqui
+[21Dec2024 02:28:39.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pinche alan
+[21Dec2024 02:28:42.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> t
+[21Dec2024 02:29:17.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR has made the advancement [Take Aim]
+[21Dec2024 02:29:34.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Not Today, Thank You]
+[21Dec2024 02:33:00.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Getting an Upgrade]
+[21Dec2024 02:34:30.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR has made the advancement [Diamonds!]
+[21Dec2024 02:41:13.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:41:32.358] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! 4.88300139748992,0.0,9.126672205759064
+[21Dec2024 02:41:58.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! 5.725767521906249,0.0,8.604315506474109
+[21Dec2024 02:42:03.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! 4.75461329103517,-5.609992821288927,7.289959195522556
+[21Dec2024 02:42:11.979] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/31124, l='ServerLevel[world]', x=99.72, y=63.50, z=715.63] died, message: 'Unemployed suffocated in a wall'
+[21Dec2024 02:42:22.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! -1.6571401982994338,0.0,10.761419446713148
+[21Dec2024 02:42:40.452] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! -1.8903794329850712,0.0,10.72354656561788
+[21Dec2024 02:43:20.881] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! -7.162513584654391,0.0,8.19470156307284
+[21Dec2024 02:43:23.246] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! -5.716664658656839,0.0,8.808957173077715
+[21Dec2024 02:43:34.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! -0.8723984531376345,0.0,10.853865112873336
+[21Dec2024 02:43:56.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:43:59.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:44:00.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 02:44:08.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> AYUDA
+[21Dec2024 02:44:11.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> DOGLAS
+[21Dec2024 02:44:17.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ayudaa
+[21Dec2024 02:44:19.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> AYUDAAAAAA
+[21Dec2024 02:44:31.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no puedo
+[21Dec2024 02:44:38.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ME FUI CON EL CRASU WE
+[21Dec2024 02:44:47.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> serás perro
+[21Dec2024 02:44:59.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 02:45:00.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 02:45:05.323] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[21Dec2024 02:45:05.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[21Dec2024 02:45:05.324] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[21Dec2024 02:45:25.124] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50632] logged in with entity id 34225 at (-345.3307030637333, 63.9375, 2384.5830541106816)
+[21Dec2024 02:45:25.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[21Dec2024 02:45:25.145] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[21Dec2024 02:45:27.929] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[21Dec2024 02:45:27.930] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[21Dec2024 02:45:39.774] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 02:45:41.776] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[21Dec2024 02:45:41.777] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[21Dec2024 02:46:17.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:46:51.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:46:59.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
+[21Dec2024 02:47:03.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> XD
+[21Dec2024 02:47:32.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[21Dec2024 02:47:38.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> una pregunta bien sergia
+[21Dec2024 02:47:50.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya te pase la cuenta del server o nopis
+[21Dec2024 02:47:59.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
+[21Dec2024 02:48:38.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:48:49.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:49:20.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 hit the ground too hard
+[21Dec2024 02:49:22.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Suit Up]
+[21Dec2024 02:49:31.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 hit the ground too hard
+[21Dec2024 02:49:49.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[21Dec2024 02:50:22.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 02:50:46.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:50:58.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Zombie
+[21Dec2024 02:51:03.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was burnt to a crisp whilst fighting Zombie
+[21Dec2024 02:51:06.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 02:51:11.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> estos tipos
+[21Dec2024 02:51:33.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:51:59.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:52:07.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Take Aim]
+[21Dec2024 02:52:44.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Isn't It Iron Pick]
+[21Dec2024 02:53:19.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 02:53:26.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 02:53:36.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 02:53:43.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 02:54:07.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> waw
+[21Dec2024 02:54:53.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Spider
+[21Dec2024 02:55:09.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Spider
+[21Dec2024 02:55:33.468] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/34322, l='ServerLevel[world]', x=-347.40, y=73.00, z=2308.77] died, message: 'Farmer was slain by Zombie'
+[21Dec2024 02:55:34.468] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/34308, l='ServerLevel[world]', x=-341.68, y=62.00, z=2378.74] died, message: 'Farmer was slain by Spider'
+[21Dec2024 02:55:49.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:56:10.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 02:56:50.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
+[21Dec2024 02:57:05.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
+[21Dec2024 02:57:33.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 02:57:39.567] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/39192, l='ServerLevel[world]', x=-349.70, y=64.00, z=2435.49] died, message: 'Cleric was slain by Spider'
+[21Dec2024 02:57:49.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> destruyeron mi aldea w
+[21Dec2024 02:57:58.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 02:58:05.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR hit the ground too hard whilst trying to escape Skeleton
+[21Dec2024 02:58:11.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR hit the ground too hard
+[21Dec2024 02:58:22.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> que rollo
+[21Dec2024 02:58:23.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:58:25.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> y la cama
+[21Dec2024 02:58:40.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie
+[21Dec2024 02:58:57.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:59:04.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 02:59:31.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 02:59:39.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 02:59:57.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 02:59:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ven donde nos escomdimos
+[21Dec2024 03:00:14.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 03:00:31.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 03:00:38.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 03:01:02.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> reviveme
+[21Dec2024 03:01:05.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> voy a morir
+[21Dec2024 03:01:16.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> donde
+[21Dec2024 03:01:23.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 03:01:25.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
+[21Dec2024 03:01:37.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Diamonds!]
+[21Dec2024 03:01:49.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Skeleton
+[21Dec2024 03:01:55.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Skeleton
+[21Dec2024 03:01:57.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
+[21Dec2024 03:02:15.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [Cover Me with Diamonds]
+[21Dec2024 03:02:36.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 03:02:37.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 03:02:44.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 03:03:02.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> oye alan
+[21Dec2024 03:03:13.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> con cuantos diamantes se hace el escudo we
+[21Dec2024 03:03:23.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> checalo
+[21Dec2024 03:03:31.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> en este coso
+[21Dec2024 03:03:39.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y como se llama we
+[21Dec2024 03:04:19.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Eld Knight
+[21Dec2024 03:04:32.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Eld Knight
+[21Dec2024 03:04:44.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 03:04:50.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 03:04:59.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Eld Knight
+[21Dec2024 03:05:05.775] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-23, y=62, z=59}
+[21Dec2024 03:05:11.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=63, z=56}
+[21Dec2024 03:05:12.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=63, z=57}
+[21Dec2024 03:05:13.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Eld Knight
+[21Dec2024 03:06:14.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[21Dec2024 03:07:23.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[21Dec2024 03:08:47.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> oye
+[21Dec2024 03:08:48.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> doglas
+[21Dec2024 03:09:10.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was pummeled by Spider
+[21Dec2024 03:09:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Spider
+[21Dec2024 03:09:26.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q
+[21Dec2024 03:09:59.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 03:10:29.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 03:10:35.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 03:10:48.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
+[21Dec2024 03:11:06.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
+[21Dec2024 03:11:17.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 03:11:23.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 03:11:42.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a
+[21Dec2024 03:12:51.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[21Dec2024 03:12:57.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[21Dec2024 03:13:14.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alña
+[21Dec2024 03:13:26.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> q
+[21Dec2024 03:13:33.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> nada
+[21Dec2024 03:13:36.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> un wey no se puede meter
+[21Dec2024 03:13:43.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pprq
+[21Dec2024 03:13:52.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> dice que se queda en conectando con el servidor
+[21Dec2024 03:13:53.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> llamame alan
+[21Dec2024 03:14:25.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a
+[21Dec2024 03:14:31.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pues qie reinicie
+[21Dec2024 03:14:53.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[21Dec2024 03:15:00.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[21Dec2024 03:17:14.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was impaled on a stalagmite
+[21Dec2024 03:17:21.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was impaled on a stalagmite
+[21Dec2024 03:20:15.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Zombie
+[21Dec2024 03:20:22.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Zombie
+[21Dec2024 03:21:08.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> doglas
+[21Dec2024 03:21:11.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> dice este tio
+[21Dec2024 03:21:22.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> que tiene que añadir un segundo servicio
+[21Dec2024 03:21:35.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> cual
+[21Dec2024 03:22:10.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Man From The Fog
+[21Dec2024 03:22:10.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> A
+[21Dec2024 03:22:17.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Man From The Fog
+[21Dec2024 03:22:26.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo digo que le falto el programa
+[21Dec2024 03:22:30.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no
+[21Dec2024 03:22:33.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> a ver
+[21Dec2024 03:22:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> es esto del tailscale
+[21Dec2024 03:22:59.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> por eso
+[21Dec2024 03:23:04.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> por eso w
+[21Dec2024 03:23:05.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tal vez no tiene instalado el programa
+[21Dec2024 03:23:08.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no puede
+[21Dec2024 03:23:13.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> si lo tiene
+[21Dec2024 03:23:20.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> inició sesión
+[21Dec2024 03:23:24.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> se metió al link
+[21Dec2024 03:23:29.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pero le sale una mamadota
+[21Dec2024 03:23:36.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> te metemos a la llamada?
+[21Dec2024 03:23:51.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ok
+[21Dec2024 03:23:59.678] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[21Dec2024 03:23:59.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[21Dec2024 03:23:59.679] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[21Dec2024 03:24:02.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[21Dec2024 03:24:07.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[21Dec2024 03:26:54.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[21Dec2024 03:27:00.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[21Dec2024 03:27:36.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> hay que pasar la noche
+[21Dec2024 03:28:41.525] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TPpa[/100.109.158.39:56313] logged in with entity id 54720 at (-12.5, 64.0, 69.5)
+[21Dec2024 03:28:41.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa joined the game
+[21Dec2024 03:28:41.567] [Server thread/INFO] [Jade/]: Syncing config to TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9)
+[21Dec2024 03:28:43.229] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of TPpa (18)
+[21Dec2024 03:28:43.229] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to TPpa
+[21Dec2024 03:28:47.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> perra
+[21Dec2024 03:28:50.572] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[21Dec2024 03:28:51.574] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[21Dec2024 03:28:51.575] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9) successfully connected to voice chat
+[21Dec2024 03:28:59.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> cagazon
+[21Dec2024 03:29:04.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa moved too quickly! -8.885209805178281,-0.12129684053920187,-4.793293418818074
+[21Dec2024 03:29:17.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa was slain by Zombie
+[21Dec2024 03:29:28.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> insano mi inter
+[21Dec2024 03:29:40.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> donde estas w
+[21Dec2024 03:29:46.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> spawn
+[21Dec2024 03:29:49.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa drowned whilst trying to escape Zombie
+[21Dec2024 03:29:54.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=63, z=56}
+[21Dec2024 03:29:54.442] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=63, z=56}
+[21Dec2024 03:29:54.443] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=63, z=56}
+[21Dec2024 03:29:54.491] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=63, z=56}
+[21Dec2024 03:29:56.736] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=62, z=57}
+[21Dec2024 03:29:59.722] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=62, z=57}
+[21Dec2024 03:30:00.283] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=61, z=57}
+[21Dec2024 03:30:00.328] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=61, z=57}
+[21Dec2024 03:30:01.781] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=62, z=57}
+[21Dec2024 03:30:03.623] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=62, z=57}
+[21Dec2024 03:30:03.625] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-11, y=62, z=57}
+[21Dec2024 03:30:03.678] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=62, z=57}
+[21Dec2024 03:30:34.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Spider
+[21Dec2024 03:30:38.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> bro
+[21Dec2024 03:30:41.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Spider
+[21Dec2024 03:30:43.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> mi inter q pdo
+[21Dec2024 03:32:23.522] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7 timed out
+[21Dec2024 03:32:23.523] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player tacaz1707
+[21Dec2024 03:32:23.523] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[21Dec2024 03:32:28.718] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/57286, l='ServerLevel[world]', x=-111.50, y=52.00, z=-536.50]
+[21Dec2024 03:32:33.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
+[21Dec2024 03:32:33.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[21Dec2024 03:32:33.437] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[21Dec2024 03:32:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ya vamos por ti tilin
+[21Dec2024 03:33:01.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> na
+[21Dec2024 03:33:05.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> me la rifo
+[21Dec2024 03:33:08.926] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:56935] logged in with entity id 57967 at (-224.63603758984988, 69.5625, 305.4264543848919)
+[21Dec2024 03:33:08.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[21Dec2024 03:33:08.967] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[21Dec2024 03:33:09.077] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[21Dec2024 03:33:09.078] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[21Dec2024 03:33:11.021] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 03:33:12.022] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[21Dec2024 03:33:12.022] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[21Dec2024 03:34:00.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa was blown up by Creeper
+[21Dec2024 03:34:18.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> el inter esta insanooo
+[21Dec2024 03:35:00.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa was blown up by Creeper
+[21Dec2024 03:35:24.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ya vamos tilin
+[21Dec2024 03:35:54.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Suit Up]
+[21Dec2024 03:35:54.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21Dec2024 03:35:54.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Dec2024 03:35:54.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Dec2024 03:35:54.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Dec2024 03:35:54.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Dec2024 03:35:55.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Dec2024 03:35:55.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Dec2024 03:35:55.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Dec2024 03:35:55.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Dec2024 03:35:55.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Dec2024 03:35:55.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Dec2024 03:35:55.320] [Server thread/INFO] [Framework/]: Unloading server configs...
