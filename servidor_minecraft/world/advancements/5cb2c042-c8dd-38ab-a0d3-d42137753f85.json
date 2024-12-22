@@ -208,6 +208,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/bow_chestplate": {
+    "criteria": {
+      "has_arrow": "2024-12-22 03:14:58 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/witch_leggings": {
     "criteria": {
       "has_glass_bottle": "2024-12-22 02:28:03 +0000"
@@ -316,9 +322,21 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/bow_boots": {
+    "criteria": {
+      "has_arrow": "2024-12-22 03:14:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2024-12-22 02:32:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
     },
     "done": true
   },
@@ -382,6 +400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/pirate_helmet": {
     "criteria": {
       "has_bone": "2024-12-22 03:07:38 +0000"
@@ -397,6 +421,12 @@
   "spartanshields:recipes/diamond_basic_shield": {
     "criteria": {
       "has_diamond": "2024-12-22 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
     },
     "done": true
   },
@@ -460,6 +490,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2024-12-22 02:29:38 +0000"
@@ -490,6 +526,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2024-12-22 02:31:57 +0000"
@@ -505,6 +547,12 @@
   "knightquest:recipes/misc/creeper_boots": {
     "criteria": {
       "has_gunpowder": "2024-12-22 03:07:41 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bow_helmet": {
+    "criteria": {
+      "has_arrow": "2024-12-22 03:14:58 +0000"
     },
     "done": true
   },
@@ -568,6 +616,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/wither_chestplate": {
     "criteria": {
       "has_bone": "2024-12-22 03:07:38 +0000"
@@ -610,6 +664,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2024-12-22 02:49:53 +0000"
@@ -643,6 +703,12 @@
   "knightquest:recipes/misc/strawhat_helmet": {
     "criteria": {
       "has_white_wool": "2024-12-22 02:49:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
     },
     "done": true
   },
@@ -712,6 +778,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bow_leggings": {
+    "criteria": {
+      "has_arrow": "2024-12-22 03:14:58 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/uchigatana_katana": {
     "criteria": {
       "has_diamond": "2024-12-22 02:46:51 +0000"
@@ -742,6 +820,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/stone_tower_shield": {
     "criteria": {
       "has_cobblestone": "2024-12-22 02:28:09 +0000"
@@ -763,6 +847,12 @@
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-22 02:29:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
     },
     "done": true
   },
@@ -832,6 +922,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2024-12-22 02:49:53 +0000"
@@ -853,6 +949,18 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2024-12-22 02:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
     },
     "done": true
   },
@@ -892,9 +1000,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2024-12-22 02:31:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
     },
     "done": true
   },
@@ -1066,9 +1186,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-22 02:32:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-12-22 03:23:10 +0000"
     },
     "done": true
   },
@@ -1144,6 +1282,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-22 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-12-22 03:23:08 +0000"
     },
     "done": true
   },
