@@ -1132,3 +1132,169 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [22Dec2024 02:51:57.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> muerete we
 [22Dec2024 02:51:57.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 was slain by Man From The Fog
 [22Dec2024 02:52:30.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> Nicolás pasa coords
+[22Dec2024 02:53:14.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> son secretas we
+[22Dec2024 02:56:43.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pa naa
+[22Dec2024 03:01:13.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
+[22Dec2024 03:01:15.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[22Dec2024 03:01:17.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> valio vergawe
+[22Dec2024 03:01:19.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
+[22Dec2024 03:01:21.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[22Dec2024 03:01:30.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> no w es estrategia
+[22Dec2024 03:01:34.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> no we
+[22Dec2024 03:01:36.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> nosotros
+[22Dec2024 03:01:37.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> Bv
+[22Dec2024 03:02:59.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by Man From The Fog
+[22Dec2024 03:03:04.088] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/4200, l='ServerLevel[world]', x=-349.66, y=65.00, z=2349.37] died, message: 'Cleric was slain by Zombie'
+[22Dec2024 03:03:18.843] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/4201, l='ServerLevel[world]', x=-367.07, y=63.00, z=2436.25] died, message: 'Fletcher was slain by Zombie'
+[22Dec2024 03:03:19.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 drowned
+[22Dec2024 03:03:40.094] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TPpa[/100.109.158.39:65059] logged in with entity id 19007 at (-400.61812869627227, 106.0, -33.30000001192093)
+[22Dec2024 03:03:40.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa joined the game
+[22Dec2024 03:03:40.104] [Server thread/INFO] [Jade/]: Syncing config to TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9)
+[22Dec2024 03:03:40.495] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of TPpa (18)
+[22Dec2024 03:03:40.496] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to TPpa
+[22Dec2024 03:03:42.199] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[22Dec2024 03:03:42.909] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[22Dec2024 03:03:42.910] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9) successfully connected to voice chat
+[22Dec2024 03:03:46.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to NICOLASXR10]
+[22Dec2024 03:04:03.450] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa moved too quickly! 0.15465686097451226,-10.201221124817735,2.2965210525756734
+[22Dec2024 03:04:06.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa was kicked for floating too long!
+[22Dec2024 03:04:06.301] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa lost connection: Flying is not enabled on this server
+[22Dec2024 03:04:06.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa left the game
+[22Dec2024 03:04:06.302] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client TPpa
+[22Dec2024 03:04:12.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Moose
+[22Dec2024 03:04:12.691] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TPpa[/100.109.158.39:65071] logged in with entity id 19435 at (-429.4482166444117, 37.63335875000782, 11.113888614308923)
+[22Dec2024 03:04:12.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa joined the game
+[22Dec2024 03:04:12.700] [Server thread/INFO] [Jade/]: Syncing config to TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9)
+[22Dec2024 03:04:12.997] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of TPpa (18)
+[22Dec2024 03:04:12.999] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to TPpa
+[22Dec2024 03:04:14.429] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[22Dec2024 03:04:15.393] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 35e65f61-b632-3bb8-9ea2-fd57ed65a2c9
+[22Dec2024 03:04:15.393] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player TPpa (35e65f61-b632-3bb8-9ea2-fd57ed65a2c9) successfully connected to voice chat
+[22Dec2024 03:04:26.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa fell from a high place
+[22Dec2024 03:04:27.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[22Dec2024 03:04:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa fell from a high place
+[22Dec2024 03:04:38.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[22Dec2024 03:04:51.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> donde chuchas andan
+[22Dec2024 03:04:54.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> alan
+[22Dec2024 03:04:56.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> mielda
+[22Dec2024 03:05:12.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa was blown up by Creeper
+[22Dec2024 03:05:18.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa was blown up by Creeper
+[22Dec2024 03:05:41.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was shot by Skeleton
+[22Dec2024 03:05:47.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was shot by Skeleton
+[22Dec2024 03:06:03.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by NICOLASXR10
+[22Dec2024 03:06:33.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Stray
+[22Dec2024 03:06:39.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by NICOLASXR10
+[22Dec2024 03:06:40.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Stray
+[22Dec2024 03:06:42.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 was slain by NICOLASXR10
+[22Dec2024 03:06:59.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to NICOLASXR10]
+[22Dec2024 03:07:00.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was slain by NICOLASXR10
+[22Dec2024 03:07:04.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> XD
+[22Dec2024 03:07:22.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Gusnow
+[22Dec2024 03:07:26.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[22Dec2024 03:07:34.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[22Dec2024 03:07:36.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 is bleeding. NICOLASXR10 was slain by Zombie
+[22Dec2024 03:07:38.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 has made the advancement [Suit Up]
+[22Dec2024 03:07:53.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Gusnow
+[22Dec2024 03:08:36.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was shot by Skeleton
+[22Dec2024 03:08:36.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 was slain by Zombie
+[22Dec2024 03:08:52.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa was slain by Zombie
+[22Dec2024 03:08:54.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[22Dec2024 03:08:56.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> wey
+[22Dec2024 03:09:00.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 was shot by Skeleton
+[22Dec2024 03:09:08.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
+[22Dec2024 03:09:08.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> un puto zombi me tiro una enderpearl
+[22Dec2024 03:09:11.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -359.500000, 81.500000, 2410.500000]
+[22Dec2024 03:09:12.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Man From The Fog
+[22Dec2024 03:09:12.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> esa mmda
+[22Dec2024 03:09:16.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NICOLASXR10> JAJAJA
+[22Dec2024 03:09:18.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Man From The Fog
+[22Dec2024 03:09:19.604] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	Index: 8
+	Listeners:
+		0: HIGHEST
+		1: ASM: team.creative.playerrevive.server.ReviveEventServer@201f888d playerDied(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		2: NORMAL
+		3: ASM: insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch@4f09b069 onDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		4: ASM: com.mrcrayfish.framework.event.ForgeEvents@97594a9 onLivingEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		5: ASM: class com.tiviacz.warriorrage.ForgeEventHandler playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		6: ASM: class com.tiviacz.warriorrage.ForgeEventHandler playerSlayMob(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		7: ASM: class net.mcreator.man.procedures.KilledManProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		8: ASM: class net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		9: ASM: class net.xylonity.knightquest.common.item.KQArmorItem$ArmorStatusManagerEvents onLivingDead(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		10: ASM: class net.mcreator.vapor.procedures.VaporDiedProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		11: ASM: class net.mcreator.vapor.procedures.RoseDiedProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		12: ASM: class net.mcreator.gammabeasts.procedures.MuerteEXPProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		13: LOWEST
+		14: ASM: de.maxhenkel.gravestone.corelib.death.DeathEvents@5d81893e playerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96)
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49)
+	at TRANSFORMER/man@1.4/net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573)
+	at TRANSFORMER/playerrevive@2.0.25/team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89)
+	at TRANSFORMER/playerrevive@2.0.25/team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20)
+	at TRANSFORMER/creativecore@2.11.30/team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14)
+	at TRANSFORMER/creativecore@2.11.30/team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:52)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[22Dec2024 03:09:19.618] [Server thread/ERROR] [creativecore/]: Executing a packet ran into an exception
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_9236_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.execute(JumpscareDisplayOverlayIngameProcedure.java:96) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
+	at net.mcreator.man.procedures.JumpscareDisplayOverlayIngameProcedure.onEntityDeath(JumpscareDisplayOverlayIngameProcedure.java:49) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
+	at net.mcreator.man.procedures.__JumpscareDisplayOverlayIngameProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic) ~[The-Man-From-The-Fog-1.4-1.20.1.jar%23190!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at team.creative.playerrevive.server.PlayerReviveServer.kill(PlayerReviveServer.java:89) ~[PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar%23184!/:2.0.25]
+	at team.creative.playerrevive.packet.GiveUpPacket.executeServer(GiveUpPacket.java:20) ~[PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar%23184!/:2.0.25]
+	at team.creative.creativecore.common.network.CreativePacket.execute(CreativePacket.java:14) ~[CreativeCore_FORGE_v2.11.30_mc1.20.1.jar%23162!/:2.11.30]
+	at team.creative.creativecore.common.network.CreativeNetwork.lambda$registerType$2(CreativeNetwork.java:52) ~[CreativeCore_FORGE_v2.11.30_mc1.20.1.jar%23162!/:2.11.30]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22Dec2024 03:09:34.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
+[22Dec2024 03:09:38.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Spider
+[22Dec2024 03:09:41.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Stray
+[22Dec2024 03:09:46.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was doomed to fall by Spider
+[22Dec2024 03:09:47.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Stray
+[22Dec2024 03:09:52.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa was slain by Zombie
+[22Dec2024 03:10:59.166] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['Angry Creeper'/19800, l='ServerLevel[world]', x=-59.89, y=42.00, z=350.45] died: Angry Creeper was slain by AlanJCR
+[22Dec2024 03:11:48.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 is bleeding. NICOLASXR10 was slain by Doglas777
+[22Dec2024 03:12:00.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NICOLASXR10 was slain by Doglas777
+[22Dec2024 03:12:36.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[22Dec2024 03:12:47.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa moved too quickly! -5.24349063783086,-1.1216000461578375,8.62906443670039
+[22Dec2024 03:12:58.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TPpa is bleeding. TPpa was slain by Zombie
+[22Dec2024 03:12:58.054] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TPpa moved too quickly! -3.5663247928529245,-9.177786098992556,3.3860513403914183
+[22Dec2024 03:13:05.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TPpa> hermano

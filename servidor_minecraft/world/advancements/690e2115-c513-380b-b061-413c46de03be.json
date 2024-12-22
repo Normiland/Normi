@@ -2347,15 +2347,129 @@
     },
     "done": true
   },
+  "spartanshields:recipes/copper_basic_shield": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-22 02:57:01 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_helmet": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_leggings": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_icy": "2024-12-22 02:54:23 +0000"
+    },
+    "done": false
+  },
+  "spartanshields:recipes/copper_tower_shield": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-22 02:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-22 02:57:01 +0000"
+    },
+    "done": true
+  },
   "paraglider:paraglider": {
     "criteria": {
       "paraglider": "2024-12-22 02:35:29 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
+    },
+    "done": true
+  },
   "paraglider:recipes/misc/cosmetic/deku_leaf": {
     "criteria": {
       "has_paragliders": "2024-12-22 02:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-22 02:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-22 02:57:01 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_boots": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_chestplate": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-22 02:52:53 +0000"
     },
     "done": true
   },
@@ -2368,6 +2482,12 @@
   "paraglider:recipes/misc/cosmetic/paraglider": {
     "criteria": {
       "has_paragliders": "2024-12-22 02:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-22 02:56:18 +0000"
     },
     "done": true
   },
