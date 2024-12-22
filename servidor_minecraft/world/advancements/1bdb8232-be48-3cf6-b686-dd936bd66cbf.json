@@ -1709,9 +1709,9 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/forze_boots": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_spider_eye": "2024-12-21 02:56:37 +0000"
+      "has_bow": "2024-12-21 02:48:44 +0000"
     },
     "done": true
   },
@@ -1721,57 +1721,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_leggings": {
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
     "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
+      "has_backpack": "2024-12-21 02:51:46 +0000"
     },
     "done": true
   },
-  "knightquest:recipes/misc/creeper_leggings": {
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
     "criteria": {
-      "has_gunpowder": "2024-12-21 02:57:21 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/bat_leggings": {
-    "criteria": {
-      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2024-12-21 02:54:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/spider_boots": {
-    "criteria": {
-      "has_spider_eye": "2024-12-21 02:56:37 +0000"
-    },
-    "done": true
-  },
-  "spartanshields:recipes/diamond_basic_shield": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
+      "has_backpack": "2024-12-21 02:51:46 +0000"
     },
     "done": true
   },
@@ -1781,33 +1739,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
+  "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-12-21 02:54:49 +0000"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "diamond_chestplate": "2024-12-21 03:02:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/creeper_boots": {
-    "criteria": {
-      "has_gunpowder": "2024-12-21 02:57:21 +0000"
+      "has_string": "2024-12-21 02:54:49 +0000"
     },
     "done": true
   },
@@ -1817,63 +1757,33 @@
     },
     "done": true
   },
-  "spartanshields:recipes/diamond_tower_shield": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2024-12-21 02:54:49 +0000"
     },
     "done": true
   },
-  "knightquest:recipes/misc/bat_helmet": {
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
-      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
+      "has_string": "2024-12-21 02:54:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
+      "has_string": "2024-12-21 02:54:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_shovel": {
+  "knightquest:recipes/misc/forze_boots": {
     "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
+      "has_spider_eye": "2024-12-21 02:56:37 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+  "knightquest:recipes/misc/spider_boots": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/uchigatana_katana": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/bat_chestplate": {
-    "criteria": {
-      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
+      "has_spider_eye": "2024-12-21 02:56:37 +0000"
     },
     "done": true
   },
@@ -1889,87 +1799,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/conquistador3_helmet": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/creeper_chestplate": {
-    "criteria": {
-      "has_gunpowder": "2024-12-21 02:57:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
   "knightquest:recipes/misc/forze_helmet": {
     "criteria": {
       "has_spider_eye": "2024-12-21 02:56:37 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
-    "criteria": {
-      "has_backpack": "2024-12-21 02:51:46 +0000"
-    },
-    "done": true
-  },
   "knightquest:recipes/misc/spider_helmet": {
     "criteria": {
       "has_spider_eye": "2024-12-21 02:56:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2024-12-21 02:48:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2024-12-21 03:12:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2024-12-21 02:54:49 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/creeper_helmet": {
-    "criteria": {
-      "has_gunpowder": "2024-12-21 02:57:21 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/uchigatana": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2024-12-21 03:01:37 +0000"
     },
     "done": true
   },
@@ -1985,15 +1823,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
+  "knightquest:recipes/misc/spider_leggings": {
+    "criteria": {
+      "has_spider_eye": "2024-12-21 02:56:37 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/creeper_leggings": {
     "criteria": {
       "has_gunpowder": "2024-12-21 02:57:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+  "knightquest:recipes/misc/creeper_boots": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+      "has_gunpowder": "2024-12-21 02:57:21 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/creeper_chestplate": {
+    "criteria": {
+      "has_gunpowder": "2024-12-21 02:57:21 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/creeper_helmet": {
+    "criteria": {
+      "has_gunpowder": "2024-12-21 02:57:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-21 02:57:21 +0000"
     },
     "done": true
   },
@@ -2003,15 +1865,135 @@
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "diamond": "2024-12-21 03:01:37 +0000"
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/loom": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
-      "has_string": "2024-12-21 02:54:49 +0000"
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-21 02:57:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/diamond_basic_shield": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/diamond_tower_shield": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/uchigatana_katana": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/conquistador3_helmet": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/uchigatana": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-12-21 03:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-21 03:01:37 +0000"
     },
     "done": true
   },
@@ -2021,21 +2003,51 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-12-21 03:02:15 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_leggings": {
+    "criteria": {
+      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_helmet": {
+    "criteria": {
+      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_chestplate": {
+    "criteria": {
+      "has_dripstone_block": "2024-12-21 03:08:19 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/bat_boots": {
     "criteria": {
       "has_dripstone_block": "2024-12-21 03:08:19 +0000"
     },
     "done": true
   },
-  "knightquest:recipes/misc/spider_leggings": {
+  "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
-      "has_spider_eye": "2024-12-21 02:56:37 +0000"
+      "has_pointed_dripstone": "2024-12-21 03:12:44 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+  "knightquest:recipes/misc/cleaver_heavy_axe": {
     "criteria": {
-      "has_backpack": "2024-12-21 02:51:46 +0000"
+      "has_diamond_axe": "2024-12-22 02:25:04 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/cleaver": {
+    "criteria": {
+      "has_diamond_axe": "2024-12-22 02:25:04 +0000"
     },
     "done": true
   },
