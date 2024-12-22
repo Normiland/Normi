@@ -542,7 +542,8 @@
       "cooked_beef": "2024-12-21 01:48:09 +0000",
       "baked_potato": "2024-12-21 01:26:08 +0000",
       "bread": "2024-12-21 02:56:28 +0000",
-      "cookie": "2024-12-21 01:47:09 +0000"
+      "cookie": "2024-12-21 01:47:09 +0000",
+      "rotten_flesh": "2024-12-22 02:34:48 +0000"
     },
     "done": false
   },
@@ -2346,9 +2347,27 @@
     },
     "done": true
   },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2024-12-22 02:35:29 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2024-12-22 02:35:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2024-12-22 02:24:47 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2024-12-22 02:35:29 +0000"
     },
     "done": true
   },

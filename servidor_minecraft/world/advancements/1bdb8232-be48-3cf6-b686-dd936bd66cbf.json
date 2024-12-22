@@ -626,6 +626,8 @@
     "criteria": {
       "cooked_mutton": "2024-12-21 00:33:17 +0000",
       "cooked_beef": "2024-12-21 02:59:46 +0000",
+      "potato": "2024-12-22 02:42:50 +0000",
+      "bread": "2024-12-22 02:46:32 +0000",
       "rotten_flesh": "2024-12-21 00:28:06 +0000",
       "cooked_chicken": "2024-12-21 02:54:11 +0000"
     },
@@ -2045,9 +2047,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-22 02:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-22 02:46:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-22 02:43:39 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/cleaver": {
     "criteria": {
       "has_diamond_axe": "2024-12-22 02:25:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-22 02:43:39 +0000"
     },
     "done": true
   },
