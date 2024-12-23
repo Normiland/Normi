@@ -1069,3 +1069,14 @@
 [23Dec2024 02:55:41.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to AlanJCR]
 [23Dec2024 02:55:56.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to tacaz1707]
 [23Dec2024 02:56:05.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -79.500000, 64.500000, 2647.500000]
+[23Dec2024 02:57:51.341] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
+[23Dec2024 02:57:51.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
+[23Dec2024 02:57:51.342] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
+[23Dec2024 02:58:16.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ocupo mas tierra w
+[23Dec2024 02:58:18.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Cover Me with Diamonds]
+[23Dec2024 02:58:38.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[23Dec2024 02:58:47.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[23Dec2024 02:59:26.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported tacaz1707 to Doglas777]
+[23Dec2024 03:02:56.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
+[23Dec2024 03:03:04.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
+[23Dec2024 03:03:09.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -75.500000, 64.500000, 2627.500000]
