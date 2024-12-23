@@ -2151,5 +2151,11 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/steel_axe": {
+    "criteria": {
+      "has_iron_axe": "2024-12-23 03:21:35 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
