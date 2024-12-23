@@ -22,7 +22,9 @@
       "minecraft:frozen_river": "2024-12-21 01:18:37 +0000",
       "minecraft:snowy_plains": "2024-12-21 01:13:04 +0000",
       "minecraft:snowy_taiga": "2024-12-21 01:19:46 +0000",
-      "minecraft:dripstone_caves": "2024-12-22 03:15:55 +0000"
+      "minecraft:dripstone_caves": "2024-12-22 03:15:55 +0000",
+      "minecraft:forest": "2024-12-23 02:33:34 +0000",
+      "minecraft:ice_spikes": "2024-12-23 02:29:58 +0000"
     },
     "done": false
   },
@@ -1890,6 +1892,12 @@
     },
     "done": true
   },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_icy": "2024-12-22 02:54:36 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-12-22 02:55:12 +0000"
@@ -1902,12 +1910,6 @@
     },
     "done": true
   },
-  "repurposed_structures:mineshafts": {
-    "criteria": {
-      "in_mineshaft_icy": "2024-12-22 02:54:36 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2024-12-22 02:55:12 +0000"
@@ -1915,6 +1917,18 @@
     "done": true
   },
   "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-12-22 02:55:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-22 02:55:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2024-12-22 02:55:12 +0000"
     },
@@ -1932,15 +1946,87 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
+  "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
-      "has_string": "2024-12-22 02:55:12 +0000"
+      "has_planks": "2024-12-23 02:34:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/loom": {
+  "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
-      "has_string": "2024-12-22 02:55:12 +0000"
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-23 02:27:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-23 02:27:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2024-12-23 02:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-23 02:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-23 02:27:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-23 02:34:08 +0000"
     },
     "done": true
   },

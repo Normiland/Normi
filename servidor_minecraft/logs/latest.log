@@ -952,3 +952,40 @@
 [23Dec2024 02:14:48.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> si o no
 [23Dec2024 02:15:49.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo digo que si pongamos un mod para tener esposa y sexo
 [23Dec2024 02:16:09.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> este tilin
+[23Dec2024 02:16:28.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero late la idea o no
+[23Dec2024 02:16:36.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> siwe
+[23Dec2024 02:16:59.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a jugar fifa
+[23Dec2024 02:17:04.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ahorita se hace de dida
+[23Dec2024 02:20:37.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR moved too quickly! -6.148558855546213,-0.25799910351527444,8.183513317209417
+[23Dec2024 02:22:53.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
+[23Dec2024 02:22:58.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[23Dec2024 02:23:03.438] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[23Dec2024 02:23:03.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[23Dec2024 02:23:03.439] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[23Dec2024 02:23:03.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> espera
+[23Dec2024 02:23:36.025] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:50187] logged in with entity id 87065 at (-716.6975338310867, 68.0, 272.6693003647395)
+[23Dec2024 02:23:36.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[23Dec2024 02:23:36.037] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[23Dec2024 02:23:37.061] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[23Dec2024 02:23:37.062] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[23Dec2024 02:23:41.170] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[23Dec2024 02:23:42.169] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[23Dec2024 02:23:42.170] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[23Dec2024 02:24:24.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> -60 66 2646
+[23Dec2024 02:25:39.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Tusklin
+[23Dec2024 02:25:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Tusklin
+[23Dec2024 02:26:50.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Tusklin
+[23Dec2024 02:26:56.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Tusklin
+[23Dec2024 02:27:07.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Tusklin
+[23Dec2024 02:27:12.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Tusklin
+[23Dec2024 02:27:34.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Tusklin
+[23Dec2024 02:27:40.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Tusklin
+[23Dec2024 02:28:35.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[23Dec2024 02:28:40.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[23Dec2024 02:34:07.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR has made the advancement [Chompy]
+[23Dec2024 02:34:54.425] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7 timed out
+[23Dec2024 02:34:54.426] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player tacaz1707
+[23Dec2024 02:34:54.426] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[23Dec2024 02:35:07.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
+[23Dec2024 02:35:07.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[23Dec2024 02:35:07.348] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
