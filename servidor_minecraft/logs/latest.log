@@ -989,3 +989,48 @@
 [23Dec2024 02:35:07.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
 [23Dec2024 02:35:07.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
 [23Dec2024 02:35:07.348] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[23Dec2024 02:37:42.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:58302] logged in with entity id 95783 at (-386.06010069013547, 59.0, 1518.6385523077636)
+[23Dec2024 02:37:42.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[23Dec2024 02:37:42.861] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[23Dec2024 02:37:43.741] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[23Dec2024 02:37:43.742] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[23Dec2024 02:37:46.539] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[23Dec2024 02:37:47.543] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[23Dec2024 02:37:47.543] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[23Dec2024 02:38:00.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50094] logged in with entity id 96054 at (-81.09123898280122, 120.0, 2645.3891443972066)
+[23Dec2024 02:38:00.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[23Dec2024 02:38:00.410] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[23Dec2024 02:38:02.071] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[23Dec2024 02:38:02.072] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[23Dec2024 02:38:08.133] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[23Dec2024 02:38:09.688] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[23Dec2024 02:38:09.689] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[23Dec2024 02:38:15.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> la verdad que si tiene buena panocha
+[23Dec2024 02:38:44.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> doglas
+[23Dec2024 02:38:57.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> hazle tp a tacazzzzzzzzzzzzzzzz
+[23Dec2024 02:39:04.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> si me da un beso
+[23Dec2024 02:39:09.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero asi puercote
+[23Dec2024 02:39:13.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> t la mamo si quieres
+[23Dec2024 02:39:27.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> un beso
+[23Dec2024 02:40:11.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported tacaz1707 to Doglas777]
+[23Dec2024 02:40:27.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> duerme
+[23Dec2024 02:40:35.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es que le hice tp ahora xddddddd
+[23Dec2024 02:40:50.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> dd
+[23Dec2024 02:41:13.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> tacaz1707
+[23Dec2024 02:41:22.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported tacaz1707 to Doglas777]
+[23Dec2024 02:41:35.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aaaaaaaaaaa
+[23Dec2024 02:41:41.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> apurate
+[23Dec2024 02:41:44.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aqui hay cama
+[23Dec2024 02:42:36.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> este mena
+[23Dec2024 02:43:47.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> fak
+[23Dec2024 02:44:04.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[23Dec2024 02:44:07.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pon las camas
+[23Dec2024 02:44:09.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo te defiendo
+[23Dec2024 02:44:24.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[23Dec2024 02:44:43.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> PON LAS MALDITAS CAMAS ALAN
+[23Dec2024 02:45:20.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> Y LAS CAMAS
+[23Dec2024 02:45:29.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> nose
+[23Dec2024 02:45:31.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
+[23Dec2024 02:45:33.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> en la madreeeeeeee
+[23Dec2024 02:45:43.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y este que onda
+[23Dec2024 02:45:54.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> está afk
