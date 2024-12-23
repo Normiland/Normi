@@ -2524,6 +2524,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-12-23 03:15:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_azure_bluet": "2024-12-23 02:46:51 +0000"
@@ -2539,6 +2545,12 @@
   "knightquest:recipes/misc/skulk_boots": {
     "criteria": {
       "has_white_concrete": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-23 03:15:36 +0000"
     },
     "done": true
   },
