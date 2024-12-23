@@ -2512,5 +2512,35 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/skulk_chestplate": {
+    "criteria": {
+      "has_white_concrete": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk_helmet": {
+    "criteria": {
+      "has_white_concrete": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk_leggings": {
+    "criteria": {
+      "has_white_concrete": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/skulk_boots": {
+    "criteria": {
+      "has_white_concrete": "2024-12-23 02:46:51 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
