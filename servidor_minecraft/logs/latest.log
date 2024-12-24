@@ -1389,3 +1389,25 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 02:42:30.634] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
 [24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
 [24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[24Dec2024 02:42:33.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 02:42:34.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 02:42:34.791] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[24Dec2024 02:45:59.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Not Today, Thank You]
+[24Dec2024 02:46:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> cirre w
+[24Dec2024 02:47:26.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> y nunca volvio
+[24Dec2024 02:47:43.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo digo que anda con isai
+[24Dec2024 02:47:55.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> oye w esos monumentos cn diamante no se pueden picar vdad?
+[24Dec2024 02:48:15.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> quieres ver que pasa si lo hacemos?
+[24Dec2024 02:48:23.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> nos biolan vdad
+[24Dec2024 02:48:25.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the time to 1000]
+[24Dec2024 02:49:44.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> desde aki beo
+[24Dec2024 02:50:01.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> su ptm
+[24Dec2024 02:50:27.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall
+[24Dec2024 02:50:39.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es la cratura mas op en cuanto daño
+[24Dec2024 02:50:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dificil dificil no ta
+[24Dec2024 02:50:51.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
+[24Dec2024 02:50:58.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es tan op
+[24Dec2024 02:51:02.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que puede matar al negro
+[24Dec2024 02:51:20.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> si quieres te doy su montura
+[24Dec2024 02:52:21.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
+[24Dec2024 02:52:25.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
