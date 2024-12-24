@@ -1005,3 +1005,40 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
 [24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
 [24Dec2024 00:40:34.290] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[24Dec2024 00:41:15.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> kik
+[24Dec2024 00:41:18.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que menso
+[24Dec2024 00:41:22.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no puede voar lol
+[24Dec2024 00:41:27.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> gg
+[24Dec2024 00:41:55.451] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:53753] logged in with entity id 3551 at (-65.5, 64.0, 2621.5)
+[24Dec2024 00:41:55.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[24Dec2024 00:41:55.498] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[24Dec2024 00:41:55.696] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[24Dec2024 00:41:55.696] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[24Dec2024 00:41:57.427] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 00:41:58.432] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 00:41:58.432] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[24Dec2024 00:42:05.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -255.500000, 112.500000, 2765.500000]
+[24Dec2024 00:43:57.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> chat
+[24Dec2024 00:44:05.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya vieron esta aldea o es nueva
+[24Dec2024 00:44:23.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no
+[24Dec2024 00:44:35.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> el que está como a 500 bloques?
+[24Dec2024 00:44:56.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> -354
+[24Dec2024 00:45:00.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> 99
+[24Dec2024 00:45:10.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> 2762
+[24Dec2024 00:46:24.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> solo hay dos aldeanos
+[24Dec2024 00:46:37.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a nu
+[24Dec2024 00:46:38.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
+[24Dec2024 00:46:42.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> encontré otra
+[24Dec2024 00:47:40.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> -596 68 2504
+[24Dec2024 00:47:59.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to AlanJCR]
+[24Dec2024 00:48:31.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[24Dec2024 00:48:37.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> me dijieron que eres lesbiana
+[24Dec2024 00:48:39.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> eso es cierto?
+[24Dec2024 00:48:46.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> we
+[24Dec2024 00:48:52.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> las lesbiana solo son mujeres
+[24Dec2024 00:49:03.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero te gustan las mujeres?
+[24Dec2024 00:49:33.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> suicidate
+[24Dec2024 00:50:02.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> como que los aldeanos tendras destruidas sus casas
+[24Dec2024 00:50:03.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> jejej
+[24Dec2024 00:50:53.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to AlanJCR]
+[24Dec2024 00:51:03.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -89.500000, 121.500000, 2646.500000]
