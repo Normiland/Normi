@@ -20,6 +20,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2024-12-21 01:18:37 +0000",
+      "minecraft:river": "2024-12-24 00:35:04 +0000",
       "minecraft:snowy_plains": "2024-12-21 01:13:04 +0000",
       "minecraft:snowy_taiga": "2024-12-21 01:19:46 +0000",
       "minecraft:dripstone_caves": "2024-12-22 03:15:55 +0000",

@@ -981,3 +981,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 00:30:22.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
 [24Dec2024 00:30:27.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
 [24Dec2024 00:30:35.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> agua
+[24Dec2024 00:30:50.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -205.500000, 107.500000, 2738.500000]
+[24Dec2024 00:31:23.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Zombie
+[24Dec2024 00:31:27.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> socorrow
+[24Dec2024 00:31:34.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dnde estas w
+[24Dec2024 00:31:44.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
+[24Dec2024 00:31:44.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
+[24Dec2024 00:31:44.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Zombie
+[24Dec2024 00:31:44.353] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
+[24Dec2024 00:31:48.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:54467] logged in with entity id 1602 at (-91.35457206858021, 45.60376365469679, 2642.4601884379376)
+[24Dec2024 00:31:48.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
+[24Dec2024 00:31:49.011] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
+[24Dec2024 00:31:49.202] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
+[24Dec2024 00:31:49.203] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
+[24Dec2024 00:31:51.181] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
+[24Dec2024 00:31:52.184] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
+[24Dec2024 00:31:52.184] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
+[24Dec2024 00:36:58.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
+[24Dec2024 00:37:04.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
+[24Dec2024 00:40:10.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ZZZ
+[24Dec2024 00:40:21.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ZZZZ
+[24Dec2024 00:40:24.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> zzzzz
+[24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
+[24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[24Dec2024 00:40:34.290] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
