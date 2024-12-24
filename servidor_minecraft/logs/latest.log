@@ -1365,3 +1365,27 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
 [24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
 [24Dec2024 02:28:10.834] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[24Dec2024 02:36:05.244] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50102] logged in with entity id 28322 at (-85.93912243445844, 120.0, 2649.699999988079)
+[24Dec2024 02:36:05.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[24Dec2024 02:36:05.299] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[24Dec2024 02:36:05.507] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[24Dec2024 02:36:05.508] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[24Dec2024 02:36:08.765] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 02:36:09.766] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 02:36:09.766] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[24Dec2024 02:36:19.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qye rico es el pene
+[24Dec2024 02:36:55.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
+[24Dec2024 02:37:01.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
+[24Dec2024 02:37:06.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos
+[24Dec2024 02:40:42.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ira w
+[24Dec2024 02:40:49.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> escudo de hierro
+[24Dec2024 02:41:25.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[24Dec2024 02:41:52.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[24Dec2024 02:42:16.384] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[24Dec2024 02:42:16.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[24Dec2024 02:42:16.385] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[24Dec2024 02:42:30.593] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50112] logged in with entity id 29542 at (-87.89597014936464, 120.0, 2649.3893495321754)
+[24Dec2024 02:42:30.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[24Dec2024 02:42:30.634] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
