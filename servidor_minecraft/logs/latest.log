@@ -1117,3 +1117,26 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 01:09:39.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> es logica
 [24Dec2024 01:09:51.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero nos aguantamos como hombrs
 [24Dec2024 01:10:59.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -588.500000, 70.500000, 2510.500000]
+[24Dec2024 01:12:44.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -91.500000, 121.500000, 2648.500000]
+[24Dec2024 01:12:57.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[24Dec2024 01:13:00.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a
+[24Dec2024 01:13:02.998] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[24Dec2024 01:13:02.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[24Dec2024 01:13:02.998] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[24Dec2024 01:14:08.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[24Dec2024 01:14:10.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
+[24Dec2024 01:14:17.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> subre
+[24Dec2024 01:14:24.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[24Dec2024 01:14:27.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no mames
+[24Dec2024 01:16:25.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
+[24Dec2024 01:18:11.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
+[24Dec2024 01:18:18.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
+[24Dec2024 01:18:41.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:18:47.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:19:34.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[24Dec2024 01:19:41.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[24Dec2024 01:20:12.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[24Dec2024 01:20:18.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[24Dec2024 01:20:56.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Skeleton
+[24Dec2024 01:21:19.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:21:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
