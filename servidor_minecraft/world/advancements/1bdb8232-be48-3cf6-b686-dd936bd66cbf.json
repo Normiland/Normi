@@ -2554,9 +2554,27 @@
     },
     "done": true
   },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_oak": "2024-12-24 00:48:00 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-12-24 00:50:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2024-12-24 00:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-24 00:50:41 +0000"
     },
     "done": true
   },
