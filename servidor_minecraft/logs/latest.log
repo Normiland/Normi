@@ -1360,3 +1360,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 02:19:55.884] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
 [24Dec2024 02:19:55.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
 [24Dec2024 02:20:49.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qye es bajo minero
+[24Dec2024 02:28:06.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[24Dec2024 02:28:08.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
+[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[24Dec2024 02:28:10.834] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777

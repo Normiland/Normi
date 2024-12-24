@@ -14120,3 +14120,185 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 02:21:57.288] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.61, y=119.30, z=2648.41], dimensionLocationPath overworld
 [24Dec2024 02:21:57.288] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.61, y=119.30, z=2648.41] in list []
 [24Dec2024 02:22:05.458] [Server thread/DEBUG] [voicechat/]: [voicechat] Got state of AlanJCR: {disabled=true, disconnected=false, uuid=690e2115-c513-380b-b061-413c46de03be, name=AlanJCR, group=null}
+[24Dec2024 02:26:19.536] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.89, y=66.84, z=2649.03]
+[24Dec2024 02:26:19.694] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-103.19, y=66.66, z=2649.10], dimensionLocationPath overworld
+[24Dec2024 02:26:19.694] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-103.19, y=66.66, z=2649.10] in list []
+[24Dec2024 02:26:23.793] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.62, y=67.42, z=2650.85]
+[24Dec2024 02:26:24.094] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-100.94, y=68.20, z=2650.71], dimensionLocationPath overworld
+[24Dec2024 02:26:24.094] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-100.94, y=68.20, z=2650.71] in list []
+[24Dec2024 02:26:24.896] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.01, y=70.91, z=2650.81]
+[24Dec2024 02:26:27.292] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.15, y=79.02, z=2650.37], dimensionLocationPath overworld
+[24Dec2024 02:26:27.292] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.15, y=79.02, z=2650.37] in list []
+[24Dec2024 02:26:28.298] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.82, y=70.50, z=2649.86]
+[24Dec2024 02:26:29.836] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.96, y=74.51, z=2649.01], dimensionLocationPath overworld
+[24Dec2024 02:26:29.836] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.96, y=74.51, z=2649.01] in list []
+[24Dec2024 02:26:29.894] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.92, y=74.68, z=2648.96]
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Starting registry save
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:command_argument_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:item
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_entity_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:custom_stat
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/foliage_placer_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:stat_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_rule
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:attribute
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:position_source_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:height_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:condition
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_block_entity_modifier
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/density_function_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:fluid
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:global_loot_modifier_serializers
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_condition_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_pool_element
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:activity
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_serializer
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:frog_variant
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:banner_pattern
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:instrument
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:decorated_pot_patterns
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature_size_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:point_of_interest_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:mob_effect
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_pool_entry_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/block_state_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/chunk_generator
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:blending_function
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:float_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:chunk_status
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:enchantment
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_function_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_processor
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_score_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/tree_decorator_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:schedule
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_condition
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:entity_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_profession
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:potion
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:int_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:cat_variant
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:villager_trades_item_listing
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:pos_rule_test
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_placement
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_nbt_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:menu
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/trunk_placer_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:creative_mode_tab
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/placement_modifier_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/carver
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_number_provider_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_piece
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sound_event
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:particle_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:game_event
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/biome_source
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/root_placer_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:painting_variant
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:fluid_type
+[24Dec2024 02:26:33.207] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_predicate_type
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:entity_data_serializers
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sensor_type
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_test
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:memory_module_type
+[24Dec2024 02:26:33.208] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving empty registry data
+[24Dec2024 02:26:33.253] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Dec2024 02:26:33.261] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[24Dec2024 02:26:40.286] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.07, y=111.08, z=2648.79], dimensionLocationPath overworld
+[24Dec2024 02:26:40.286] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-102.07, y=111.08, z=2648.79] in list []
+[24Dec2024 02:26:41.086] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.98, y=113.88, z=2648.80]
+[24Dec2024 02:26:43.284] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.88, y=119.21, z=2648.42], dimensionLocationPath overworld
+[24Dec2024 02:26:43.284] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['tacaz1707'/25387, l='ServerLevel[world]', x=-101.88, y=119.21, z=2648.42] in list []
+[24Dec2024 02:26:54.928] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/27240, l='ServerLevel[world]', x=-92.26, y=120.31, z=2652.66], dimensionLocationPath overworld
+[24Dec2024 02:26:54.928] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/27240, l='ServerLevel[world]', x=-92.26, y=120.31, z=2652.66] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@632b]
+[24Dec2024 02:26:55.427] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/27240, l='ServerLevel[world]', x=-92.06, y=120.06, z=2652.61, removed=DISCARDED]
+[24Dec2024 02:27:11.277] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/27267, l='ServerLevel[world]', x=-71.29, y=121.38, z=2634.73], dimensionLocationPath overworld
+[24Dec2024 02:27:11.277] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/27267, l='ServerLevel[world]', x=-71.29, y=121.38, z=2634.73] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@632b]
+[24Dec2024 02:27:11.777] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/27267, l='ServerLevel[world]', x=-70.41, y=121.14, z=2635.04, removed=DISCARDED]
+[24Dec2024 02:28:06.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[24Dec2024 02:28:08.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
+[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[24Dec2024 02:28:10.834] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Doglas777
+[24Dec2024 02:28:10.834] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[24Dec2024 02:31:33.199] [Server thread/DEBUG] [FabricRegistrySync/]: Starting registry save
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:command_argument_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:item
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_entity_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:custom_stat
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/foliage_placer_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:stat_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_rule
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:attribute
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:position_source_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:height_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:condition
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_block_entity_modifier
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/density_function_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:fluid
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:global_loot_modifier_serializers
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_condition_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_pool_element
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:activity
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_serializer
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:frog_variant
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:banner_pattern
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:instrument
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:decorated_pot_patterns
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature_size_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:point_of_interest_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:mob_effect
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_pool_entry_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/block_state_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/chunk_generator
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:blending_function
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:float_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:chunk_status
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:enchantment
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_function_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_processor
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_score_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/tree_decorator_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:schedule
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_condition
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:entity_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_profession
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:potion
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:int_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:cat_variant
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: corgilib:villager_trades_item_listing
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:pos_rule_test
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_placement
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_nbt_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:menu
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/trunk_placer_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:creative_mode_tab
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/placement_modifier_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/carver
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_number_provider_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_piece
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sound_event
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:particle_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:game_event
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/biome_source
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/root_placer_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:painting_variant
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:fluid_type
+[24Dec2024 02:31:33.200] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_predicate_type
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:entity_data_serializers
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sensor_type
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_test
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:memory_module_type
+[24Dec2024 02:31:33.201] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving empty registry data
+[24Dec2024 02:31:33.235] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Dec2024 02:31:33.242] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
