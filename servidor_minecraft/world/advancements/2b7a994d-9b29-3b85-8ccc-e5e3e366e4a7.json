@@ -317,6 +317,8 @@
       "cooked_porkchop": "2024-12-21 02:38:08 +0000",
       "cooked_mutton": "2024-12-21 02:33:46 +0000",
       "sweet_berries": "2024-12-24 01:31:58 +0000",
+      "cooked_beef": "2024-12-24 01:56:50 +0000",
+      "apple": "2024-12-24 01:56:46 +0000",
       "potato": "2024-12-22 03:20:20 +0000",
       "bread": "2024-12-24 01:42:39 +0000",
       "rotten_flesh": "2024-12-21 01:34:10 +0000",
@@ -2328,6 +2330,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-24 01:29:25 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/warlord_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-12-24 01:34:39 +0000"
@@ -2415,12 +2423,6 @@
   "spartanshields:recipes/golden_basic_shield": {
     "criteria": {
       "has_gold_ingot": "2024-12-24 01:34:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-12-24 01:29:25 +0000"
     },
     "done": true
   },

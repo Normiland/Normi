@@ -1253,3 +1253,53 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 01:51:39.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no we
 [24Dec2024 01:51:45.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lo quiero matar
 [24Dec2024 01:51:51.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tiene como 400 de vida
+[24Dec2024 01:52:12.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> nos escuchas?
+[24Dec2024 01:52:18.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a quin
+[24Dec2024 01:52:22.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> a nosotros
+[24Dec2024 01:52:27.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no
+[24Dec2024 01:52:35.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a ta
+[24Dec2024 01:52:38.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya los escuche
+[24Dec2024 01:52:49.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> akab
+[24Dec2024 01:52:51.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[24Dec2024 01:52:52.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> sal
+[24Dec2024 01:52:57.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> quiero que aparezca
+[24Dec2024 01:53:34.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
+[24Dec2024 01:53:35.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> baja
+[24Dec2024 01:53:44.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no te hara nada
+[24Dec2024 01:54:18.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> sabes lo peor
+[24Dec2024 01:54:26.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que el hombnre de la niebla sale aqui
+[24Dec2024 01:54:30.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya me tope lol
+[24Dec2024 01:54:38.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y puede romper bloques
+[24Dec2024 01:54:41.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no estamos seguros
+[24Dec2024 01:55:05.084] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
+[24Dec2024 01:55:05.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
+[24Dec2024 01:55:05.085] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
+[24Dec2024 01:55:40.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qyueres ver un trucazo
+[24Dec2024 01:55:55.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aqui
+[24Dec2024 01:56:14.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died because of Vapor
+[24Dec2024 01:58:01.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Spider
+[24Dec2024 01:58:09.986] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
+[24Dec2024 01:58:09.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[24Dec2024 01:58:09.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Spider
+[24Dec2024 01:58:09.994] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[24Dec2024 01:58:43.094] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:54103] logged in with entity id 20761 at (-49.666895862376094, 67.0, 2667.7045853018435)
+[24Dec2024 01:58:43.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[24Dec2024 01:58:43.131] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[24Dec2024 01:58:43.309] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[24Dec2024 01:58:43.309] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[24Dec2024 01:58:44.953] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 01:58:45.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 01:58:45.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[24Dec2024 02:00:00.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tienes arena?
+[24Dec2024 02:00:41.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 died because of Vapor
+[24Dec2024 02:00:43.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Zombie
+[24Dec2024 02:00:50.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Zombie
+[24Dec2024 02:00:53.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 died
+[24Dec2024 02:01:11.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died
+[24Dec2024 02:01:18.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> NO MAMES
+[24Dec2024 02:01:20.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 died because of Skeleton
+[24Dec2024 02:01:25.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el de rojo aparece dos veces o que pedo
+[24Dec2024 02:01:33.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ala berga
+[24Dec2024 02:01:37.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[24Dec2024 02:01:43.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[24Dec2024 02:02:01.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
