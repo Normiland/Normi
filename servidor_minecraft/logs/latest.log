@@ -1140,3 +1140,56 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 01:20:56.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Skeleton
 [24Dec2024 01:21:19.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
 [24Dec2024 01:21:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:21:34.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was doomed to fall by Skeleton
+[24Dec2024 01:22:33.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[24Dec2024 01:22:37.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ahorita vuelvo
+[24Dec2024 01:22:39.037] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
+[24Dec2024 01:22:39.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
+[24Dec2024 01:22:39.038] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
+[24Dec2024 01:22:39.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[24Dec2024 01:23:28.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:23:34.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:23:54.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:24:05.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie
+[24Dec2024 01:24:22.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:24:35.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:25:14.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:25:21.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:25:35.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie Villager
+[24Dec2024 01:25:48.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie Villager
+[24Dec2024 01:26:02.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
+[24Dec2024 01:26:02.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[24Dec2024 01:26:02.689] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[24Dec2024 01:27:06.888] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:53961] logged in with entity id 15079 at (-32.85520454726259, -46.0, 2564.6910611587587)
+[24Dec2024 01:27:06.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[24Dec2024 01:27:06.897] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[24Dec2024 01:27:07.607] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[24Dec2024 01:27:07.608] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[24Dec2024 01:27:08.340] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 01:27:09.298] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[24Dec2024 01:27:09.299] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[24Dec2024 01:27:19.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 tried to swim in lava to escape Zombie Villager
+[24Dec2024 01:27:25.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie Villager
+[24Dec2024 01:27:41.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
+[24Dec2024 01:27:47.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
+[24Dec2024 01:28:04.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
+[24Dec2024 01:28:14.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> doglas amor dame tp
+[24Dec2024 01:28:23.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
+[24Dec2024 01:28:45.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was bitten by Zombie
+[24Dec2024 01:28:52.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was bitten by Zombie
+[24Dec2024 01:29:25.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Hot Stuff]
+[24Dec2024 01:29:29.344] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50021] logged in with entity id 16421 at (-96.57012082465752, 120.0, 2646.6531753909767)
+[24Dec2024 01:29:29.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[24Dec2024 01:29:29.388] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[24Dec2024 01:29:29.618] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[24Dec2024 01:29:29.619] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[24Dec2024 01:29:32.412] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 01:29:33.413] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[24Dec2024 01:29:33.413] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[24Dec2024 01:29:39.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 tried to swim in lava to escape Zombie
+[24Dec2024 01:29:46.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie
+[24Dec2024 01:29:54.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[24Dec2024 01:30:51.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> logre salir alan jajaja]
+[24Dec2024 01:31:14.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[24Dec2024 01:31:19.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lol
+[24Dec2024 01:31:23.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan esta aqui?
