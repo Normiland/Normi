@@ -1,72 +1,72 @@
-[24Dec2024 00:20:41.566] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[24Dec2024 00:20:41.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[24Dec2024 00:20:42.579] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[24Dec2024 00:20:42.590] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[24Dec2024 00:20:42.634] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[24Dec2024 00:20:42.658] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[24Dec2024 00:20:42.706] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Normi/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
-[24Dec2024 00:20:43.041] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[24Dec2024 00:20:43.052] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Dec2024 00:20:43.054] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Dec2024 00:20:43.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Dec2024 00:20:43.545] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[24Dec2024 00:20:43.546] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
-[24Dec2024 00:20:44.089] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
-[24Dec2024 00:20:45.320] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[24Dec2024 00:20:46.864] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24Dec2024 00:20:47.091] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[24Dec2024 00:20:47.328] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 139 options available, 0 override(s) found
-[24Dec2024 00:20:47.433] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Dec2024 00:20:47.434] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Dec2024 00:20:47.465] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Dec2024 00:20:47.480] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Dec2024 00:20:47.494] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Dec2024 00:20:48.335] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[24Dec2024 00:20:48.335] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[24Dec2024 00:20:48.336] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[24Dec2024 00:20:48.345] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[24Dec2024 00:20:48.346] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[24Dec2024 00:20:48.346] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[24Dec2024 00:20:49.153] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[24Dec2024 00:20:49.153] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor from mod thirst
-[24Dec2024 00:20:49.156] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
-[24Dec2024 00:20:49.156] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:accessors.create.IFluidDrainingBehaviourAccessor from mod thirst
-[24Dec2024 00:20:49.158] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/SyncedBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity)
-[24Dec2024 00:20:49.158] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity was not found thirst.mixin.json:accessors.farmersdelight.SyncedBlockEntityAccessor from mod thirst
-[24Dec2024 00:20:49.159] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
-[24Dec2024 00:20:49.159] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity from mod thirst
-[24Dec2024 00:20:49.162] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
-[24Dec2024 00:20:49.162] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe from mod thirst
-[24Dec2024 00:20:49.164] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
-[24Dec2024 00:20:49.164] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout from mod thirst
-[24Dec2024 00:20:49.165] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
-[24Dec2024 00:20:49.166] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour from mod thirst
-[24Dec2024 00:20:49.167] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
-[24Dec2024 00:20:49.167] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying from mod thirst
-[24Dec2024 00:20:49.170] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
-[24Dec2024 00:20:49.170] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling from mod thirst
-[24Dec2024 00:20:49.175] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation)
-[24Dec2024 00:20:49.176] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation from mod thirst
-[24Dec2024 00:20:49.178] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
-[24Dec2024 00:20:49.178] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe from mod thirst
-[24Dec2024 00:20:49.183] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
-[24Dec2024 00:20:49.183] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem from mod thirst
-[24Dec2024 00:20:49.184] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ServerConfig (java.lang.ClassNotFoundException: toughasnails.config.ServerConfig)
-[24Dec2024 00:20:49.185] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ServerConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig from mod thirst
-[24Dec2024 00:20:49.186] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
-[24Dec2024 00:20:49.186] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler from mod thirst
-[24Dec2024 00:20:49.188] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
-[24Dec2024 00:20:49.188] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl from mod thirst
-[24Dec2024 00:20:49.189] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
-[24Dec2024 00:20:49.190] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler from mod thirst
-[24Dec2024 00:20:49.989] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[24Dec2024 00:20:59.412] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[24Dec2024 00:20:59.454] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[24Dec2024 00:20:59.458] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[24Dec2024 00:20:59.462] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[24Dec2024 00:20:59.586] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[24Dec2024 00:20:59.862] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[24Dec2024 00:20:59.862] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+[25Dec2024 00:02:19.748] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[25Dec2024 00:02:19.755] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[25Dec2024 00:02:20.785] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Dec2024 00:02:20.794] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[25Dec2024 00:02:20.824] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[25Dec2024 00:02:20.843] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[25Dec2024 00:02:20.899] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Normi/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
+[25Dec2024 00:02:21.259] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Dec2024 00:02:21.262] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Dec2024 00:02:21.263] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Dec2024 00:02:21.265] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Normi/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Dec2024 00:02:21.766] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Dec2024 00:02:21.768] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
+[25Dec2024 00:02:22.263] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[25Dec2024 00:02:23.462] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[25Dec2024 00:02:24.877] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Dec2024 00:02:25.041] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[25Dec2024 00:02:25.267] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 139 options available, 0 override(s) found
+[25Dec2024 00:02:25.313] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 00:02:25.314] [main/WARN] [mixin/]: Reference map 'knightlib.refmap.json' for knightlib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 00:02:25.343] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 00:02:25.353] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 00:02:25.364] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Dec2024 00:02:26.140] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[25Dec2024 00:02:26.142] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[25Dec2024 00:02:26.143] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[25Dec2024 00:02:26.150] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[25Dec2024 00:02:26.151] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[25Dec2024 00:02:26.154] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[25Dec2024 00:02:26.835] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[25Dec2024 00:02:26.836] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor from mod thirst
+[25Dec2024 00:02:26.838] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[25Dec2024 00:02:26.838] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:accessors.create.IFluidDrainingBehaviourAccessor from mod thirst
+[25Dec2024 00:02:26.840] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/SyncedBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity)
+[25Dec2024 00:02:26.841] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity was not found thirst.mixin.json:accessors.farmersdelight.SyncedBlockEntityAccessor from mod thirst
+[25Dec2024 00:02:26.843] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[25Dec2024 00:02:26.843] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity from mod thirst
+[25Dec2024 00:02:26.845] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinRecipe (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinRecipe)
+[25Dec2024 00:02:26.845] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinRecipe was not found thirst.mixin.json:create.MixinBasinRecipe from mod thirst
+[25Dec2024 00:02:26.847] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
+[25Dec2024 00:02:26.847] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.spout.FillingBySpout was not found thirst.mixin.json:create.MixinFillingBySpout from mod thirst
+[25Dec2024 00:02:26.849] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/FluidDrainingBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour)
+[25Dec2024 00:02:26.849] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.FluidDrainingBehaviour was not found thirst.mixin.json:create.MixinFluidDrainingBehaviour from mod thirst
+[25Dec2024 00:02:26.850] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemEmptying (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemEmptying)
+[25Dec2024 00:02:26.850] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemEmptying was not found thirst.mixin.json:create.MixinGenericItemEmptying from mod thirst
+[25Dec2024 00:02:26.851] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
+[25Dec2024 00:02:26.851] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found thirst.mixin.json:create.MixinGenericItemFilling from mod thirst
+[25Dec2024 00:02:26.852] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/goggles/IHaveGoggleInformation (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation)
+[25Dec2024 00:02:26.852] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.goggles.IHaveGoggleInformation was not found thirst.mixin.json:create.MixinIHaveGoggleInformation from mod thirst
+[25Dec2024 00:02:26.853] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/OpenEndedPipe (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.OpenEndedPipe)
+[25Dec2024 00:02:26.854] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.OpenEndedPipe was not found thirst.mixin.json:create.MixinOpenEndedPipe from mod thirst
+[25Dec2024 00:02:26.861] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[25Dec2024 00:02:26.862] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem from mod thirst
+[25Dec2024 00:02:26.864] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ServerConfig (java.lang.ClassNotFoundException: toughasnails.config.ServerConfig)
+[25Dec2024 00:02:26.864] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ServerConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig from mod thirst
+[25Dec2024 00:02:26.865] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[25Dec2024 00:02:26.866] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler from mod thirst
+[25Dec2024 00:02:26.867] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[25Dec2024 00:02:26.867] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl from mod thirst
+[25Dec2024 00:02:26.873] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[25Dec2024 00:02:26.873] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler from mod thirst
+[25Dec2024 00:02:27.638] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[25Dec2024 00:02:35.594] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[25Dec2024 00:02:35.656] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[25Dec2024 00:02:35.659] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[25Dec2024 00:02:35.660] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[25Dec2024 00:02:35.761] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[25Dec2024 00:02:36.072] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[25Dec2024 00:02:36.076] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
 java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
@@ -93,214 +93,214 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:20:59.991] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
-[24Dec2024 00:21:00.029] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
-[24Dec2024 00:21:00.032] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
-[24Dec2024 00:21:00.033] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
-[24Dec2024 00:21:00.036] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.Warden
-[24Dec2024 00:21:00.037] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
-[24Dec2024 00:21:00.039] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
-[24Dec2024 00:21:00.041] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
-[24Dec2024 00:21:00.042] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
-[24Dec2024 00:21:00.051] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
-[24Dec2024 00:21:00.061] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
-[24Dec2024 00:21:00.062] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
-[24Dec2024 00:21:00.064] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
-[24Dec2024 00:21:00.066] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
-[24Dec2024 00:21:00.067] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
-[24Dec2024 00:21:00.068] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
-[24Dec2024 00:21:00.095] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
-[24Dec2024 00:21:00.097] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
-[24Dec2024 00:21:00.099] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
-[24Dec2024 00:21:00.111] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
-[24Dec2024 00:21:00.120] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[24Dec2024 00:21:00.120] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[24Dec2024 00:21:00.128] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
-[24Dec2024 00:21:00.128] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
-[24Dec2024 00:21:00.131] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
-[24Dec2024 00:21:00.133] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
-[24Dec2024 00:21:00.137] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
-[24Dec2024 00:21:00.139] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
-[24Dec2024 00:21:00.146] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
-[24Dec2024 00:21:00.147] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
-[24Dec2024 00:21:00.154] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
-[24Dec2024 00:21:00.156] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
-[24Dec2024 00:21:00.158] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
-[24Dec2024 00:21:00.180] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
-[24Dec2024 00:21:00.185] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
-[24Dec2024 00:21:00.192] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosions.AvoidExplosions
-[24Dec2024 00:21:00.195] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
-[24Dec2024 00:21:00.198] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
-[24Dec2024 00:21:00.201] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
-[24Dec2024 00:21:00.203] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
-[24Dec2024 00:21:00.204] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
-[24Dec2024 00:21:00.205] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
-[24Dec2024 00:21:00.221] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
-[24Dec2024 00:21:00.226] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
-[24Dec2024 00:21:00.229] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
-[24Dec2024 00:21:00.245] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
-[24Dec2024 00:21:00.261] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
-[24Dec2024 00:21:00.267] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
-[24Dec2024 00:21:00.272] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
-[24Dec2024 00:21:00.274] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
-[24Dec2024 00:21:00.323] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[24Dec2024 00:21:00.900] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[24Dec2024 00:21:00.900] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[24Dec2024 00:21:02.478] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[24Dec2024 00:21:02.481] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[24Dec2024 00:21:02.483] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[24Dec2024 00:21:02.776] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[24Dec2024 00:21:02.847] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[24Dec2024 00:21:02.887] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
-[24Dec2024 00:21:02.888] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
-[24Dec2024 00:21:02.893] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
-[24Dec2024 00:21:02.931] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[24Dec2024 00:21:02.943] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[24Dec2024 00:21:02.944] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[24Dec2024 00:21:02.945] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[24Dec2024 00:21:02.974] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[24Dec2024 00:21:03.407] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[24Dec2024 00:21:03.414] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[24Dec2024 00:21:03.417] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[24Dec2024 00:21:03.417] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[24Dec2024 00:21:03.498] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[24Dec2024 00:21:03.529] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[24Dec2024 00:21:03.534] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[24Dec2024 00:21:03.538] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[24Dec2024 00:21:03.697] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.698] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.699] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.699] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.699] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.700] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.700] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.700] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.701] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.701] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.701] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.701] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.702] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.702] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.702] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.702] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.703] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.703] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.703] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.704] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.704] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.704] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.705] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.705] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.705] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.706] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.706] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.706] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.707] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.707] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.707] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.708] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.708] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.709] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.710] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.710] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.711] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.711] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.711] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:03.712] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:03.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
-[24Dec2024 00:21:03.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
-[24Dec2024 00:21:04.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA_OUTDATED Current: 19.0.2 Target: 19.0.4
-[24Dec2024 00:21:04.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Dec2024 00:21:04.389] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[24Dec2024 00:21:04.389] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[24Dec2024 00:21:05.022] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
-[24Dec2024 00:21:05.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[24Dec2024 00:21:05.126] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
-[24Dec2024 00:21:05.565] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Dec2024 00:21:05.808] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.809] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.809] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.809] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.809] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.809] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.810] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.810] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.810] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.811] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.811] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.812] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.812] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.812] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.813] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.814] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.815] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.816] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.817] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.818] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.819] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.820] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.821] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.821] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.821] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.822] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.823] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.824] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.887] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.887] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.888] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.888] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.888] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.888] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.888] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.889] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.889] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.889] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.889] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.889] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.890] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.891] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.891] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.891] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.891] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.892] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.893] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.893] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.893] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.893] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.894] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.894] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.894] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.894] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.894] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.895] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:05.895] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
-[24Dec2024 00:21:05.895] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
-[24Dec2024 00:21:06.667] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
-[24Dec2024 00:21:06.668] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
-[24Dec2024 00:21:10.044] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[24Dec2024 00:21:11.019] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_bc
+[25Dec2024 00:02:36.214] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
+[25Dec2024 00:02:36.227] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
+[25Dec2024 00:02:36.230] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
+[25Dec2024 00:02:36.232] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
+[25Dec2024 00:02:36.236] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.Warden
+[25Dec2024 00:02:36.239] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
+[25Dec2024 00:02:36.243] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
+[25Dec2024 00:02:36.245] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
+[25Dec2024 00:02:36.251] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
+[25Dec2024 00:02:36.254] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
+[25Dec2024 00:02:36.256] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
+[25Dec2024 00:02:36.337] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
+[25Dec2024 00:02:36.351] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
+[25Dec2024 00:02:36.353] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
+[25Dec2024 00:02:36.357] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
+[25Dec2024 00:02:36.359] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
+[25Dec2024 00:02:36.364] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
+[25Dec2024 00:02:36.377] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
+[25Dec2024 00:02:36.386] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
+[25Dec2024 00:02:36.391] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
+[25Dec2024 00:02:36.411] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
+[25Dec2024 00:02:36.416] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
+[25Dec2024 00:02:36.423] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
+[25Dec2024 00:02:36.433] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Dec2024 00:02:36.434] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Dec2024 00:02:36.432] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
+[25Dec2024 00:02:36.440] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
+[25Dec2024 00:02:36.448] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
+[25Dec2024 00:02:36.452] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
+[25Dec2024 00:02:36.455] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
+[25Dec2024 00:02:36.464] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
+[25Dec2024 00:02:36.469] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
+[25Dec2024 00:02:36.474] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
+[25Dec2024 00:02:36.481] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
+[25Dec2024 00:02:36.486] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
+[25Dec2024 00:02:36.491] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosions.AvoidExplosions
+[25Dec2024 00:02:36.493] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
+[25Dec2024 00:02:36.497] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
+[25Dec2024 00:02:36.502] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
+[25Dec2024 00:02:36.509] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
+[25Dec2024 00:02:36.510] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
+[25Dec2024 00:02:36.512] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
+[25Dec2024 00:02:36.529] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
+[25Dec2024 00:02:36.536] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
+[25Dec2024 00:02:36.539] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
+[25Dec2024 00:02:36.547] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
+[25Dec2024 00:02:36.573] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
+[25Dec2024 00:02:36.575] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
+[25Dec2024 00:02:36.577] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
+[25Dec2024 00:02:36.579] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
+[25Dec2024 00:02:36.610] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[25Dec2024 00:02:37.251] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[25Dec2024 00:02:37.251] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[25Dec2024 00:02:38.776] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[25Dec2024 00:02:38.777] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[25Dec2024 00:02:38.778] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[25Dec2024 00:02:39.045] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[25Dec2024 00:02:39.082] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[25Dec2024 00:02:39.160] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[25Dec2024 00:02:39.161] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
+[25Dec2024 00:02:39.167] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[25Dec2024 00:02:39.190] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[25Dec2024 00:02:39.198] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[25Dec2024 00:02:39.198] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[25Dec2024 00:02:39.198] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[25Dec2024 00:02:39.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[25Dec2024 00:02:39.669] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[25Dec2024 00:02:39.674] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[25Dec2024 00:02:39.675] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[25Dec2024 00:02:39.676] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[25Dec2024 00:02:39.728] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Dec2024 00:02:39.752] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Dec2024 00:02:39.758] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Dec2024 00:02:39.761] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[25Dec2024 00:02:39.928] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.929] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.929] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.930] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.930] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.930] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.931] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.931] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.931] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.931] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.932] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.932] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.932] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.932] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.933] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.933] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.933] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.933] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.934] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.934] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.934] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.934] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.935] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.935] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.935] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.936] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.936] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.936] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.936] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.937] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.937] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.937] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.937] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.938] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.938] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.938] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.938] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.938] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:39.939] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:39.939] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:40.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[25Dec2024 00:02:40.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[25Dec2024 00:02:40.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA_OUTDATED Current: 19.0.2 Target: 19.0.4
+[25Dec2024 00:02:40.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Dec2024 00:02:40.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[25Dec2024 00:02:40.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[25Dec2024 00:02:41.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
+[25Dec2024 00:02:41.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[25Dec2024 00:02:41.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
+[25Dec2024 00:02:41.864] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Dec2024 00:02:42.353] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.353] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.353] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.353] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.354] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.354] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.354] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.354] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.354] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.355] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.355] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.356] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.356] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.356] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.356] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.356] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.357] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.357] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.357] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.357] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.358] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.358] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.358] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.358] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.358] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.359] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.359] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.359] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.360] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.360] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.360] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.361] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.361] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.361] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.361] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.362] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.362] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.362] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.362] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.362] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.426] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.426] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.426] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.426] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.427] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.427] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.428] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.428] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.429] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.429] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.429] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.429] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.429] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.430] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.431] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.431] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.432] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.432] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.433] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.434] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.434] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.434] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.434] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.437] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.438] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.438] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.438] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.439] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.439] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.439] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.439] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.440] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.440] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:42.440] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:netherman_teleport_charge has no attributes
+[25Dec2024 00:02:42.441] [main/ERROR] [net.minecraft.Util/]: Entity knightquest:swampman_axe has no attributes
+[25Dec2024 00:02:43.372] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
+[25Dec2024 00:02:43.373] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Normi/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
+[25Dec2024 00:02:45.897] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[25Dec2024 00:02:46.476] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:vodka'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -352,7 +352,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.028] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_fr
+[25Dec2024 00:02:46.486] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -404,7 +404,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.099] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_fr
+[25Dec2024 00:02:46.538] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/simple_dungeon_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:dandelion_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -456,7 +456,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.108] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_bc
+[25Dec2024 00:02:46.547] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/nether_bridge_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -508,7 +508,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.273] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_bc
+[25Dec2024 00:02:46.753] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:red_rum'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -560,7 +560,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.417] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:blocks/sand_filter
+[25Dec2024 00:02:46.832] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:blocks/sand_filter
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'thirst:sand_filter'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -612,7 +612,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.445] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_bc
+[25Dec2024 00:02:46.853] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:mead'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -664,7 +664,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.461] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_fr
+[25Dec2024 00:02:46.859] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/bastion_other_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:rose_hip_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -716,7 +716,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.487] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_fr
+[25Dec2024 00:02:46.872] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/shipwreck_supply_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersrespite:black_tea'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -768,7 +768,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.491] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_fr
+[25Dec2024 00:02:46.875] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_fr
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'farmersdelight:apple_cider'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -820,7 +820,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.509] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_bc
+[25Dec2024 00:02:46.893] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:thirst:chests/abandoned_mineshaft_bc
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'brewinandchewin:beer'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -872,616 +872,87 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[24Dec2024 00:21:11.870] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[24Dec2024 00:21:11.905] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[24Dec2024 00:21:11.920] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[24Dec2024 00:21:11.922] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
-[24Dec2024 00:21:11.978] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[24Dec2024 00:21:11.996] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[24Dec2024 00:21:12.047] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1722 advancements
-[24Dec2024 00:21:12.056] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[24Dec2024 00:21:12.093] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[24Dec2024 00:21:12.102] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[24Dec2024 00:21:12.137] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.137] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.138] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.139] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.140] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
-[24Dec2024 00:21:12.141] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[24Dec2024 00:21:13.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[24Dec2024 00:21:13.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24Dec2024 00:21:13.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24Dec2024 00:21:13.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24Dec2024 00:21:13.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24Dec2024 00:21:13.507] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[24Dec2024 00:21:13.650] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24Dec2024 00:21:13.650] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24Dec2024 00:21:13.651] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24Dec2024 00:21:13.652] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24Dec2024 00:21:13.836] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[24Dec2024 00:21:13.837] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[24Dec2024 00:21:13.837] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[24Dec2024 00:21:13.837] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[24Dec2024 00:21:13.837] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[24Dec2024 00:21:13.838] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[24Dec2024 00:21:13.839] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[24Dec2024 00:21:13.839] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[24Dec2024 00:21:13.839] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[24Dec2024 00:21:13.839] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[24Dec2024 00:21:13.848] [Server thread/INFO] [Framework/]: Loading server configs...
-[24Dec2024 00:21:13.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24Dec2024 00:21:24.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24Dec2024 00:21:26.805] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:26.851] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:26.866] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:26.877] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:26.992] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:27.156] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:27.287] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:28.762] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:28.790] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:28.796] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:29.288] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:29.783] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:30.314] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:32.014] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:32.014] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:32.015] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Dec2024 00:21:32.281] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[24Dec2024 00:21:32.781] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[24Dec2024 00:21:33.160] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8880 ms
-[24Dec2024 00:21:33.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.484s)! For help, type "help"
-[24Dec2024 00:21:33.204] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24Dec2024 00:21:33.218] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[24Dec2024 00:21:33.227] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.109.68.31:24454
-[24Dec2024 00:23:12.524] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:49857] logged in with entity id 74 at (-73.29761432091905, 121.0, 2646.3791046398655)
-[24Dec2024 00:23:12.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
-[24Dec2024 00:23:12.694] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
-[24Dec2024 00:23:14.144] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
-[24Dec2024 00:23:14.146] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
-[24Dec2024 00:23:18.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 00:23:19.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 00:23:19.992] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
-[24Dec2024 00:23:37.760] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:53620] logged in with entity id 229 at (-71.95635453156122, 64.0, 2653.730267480695)
-[24Dec2024 00:23:37.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
-[24Dec2024 00:23:37.825] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
-[24Dec2024 00:23:38.951] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
-[24Dec2024 00:23:38.952] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 00:23:43.518] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 00:23:44.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 00:23:44.423] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
-[24Dec2024 00:24:04.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 00:24:16.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 00:24:41.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
-[24Dec2024 00:24:51.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
-[24Dec2024 00:27:09.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> zzzzz
-[24Dec2024 00:27:24.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> me estaban pisando papu
-[24Dec2024 00:29:54.078] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:54444] logged in with entity id 988 at (-88.87769187247451, 47.0, 2637.239454756391)
-[24Dec2024 00:29:54.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
-[24Dec2024 00:29:54.128] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
-[24Dec2024 00:29:55.453] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
-[24Dec2024 00:29:55.454] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
-[24Dec2024 00:29:59.391] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 00:30:00.397] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 00:30:00.397] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
-[24Dec2024 00:30:00.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Zombie
-[24Dec2024 00:30:05.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> QUEEEE
-[24Dec2024 00:30:11.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Zombie
-[24Dec2024 00:30:13.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> donde estas
-[24Dec2024 00:30:22.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR fell from a high place
-[24Dec2024 00:30:27.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR fell from a high place
-[24Dec2024 00:30:35.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> agua
-[24Dec2024 00:30:50.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -205.500000, 107.500000, 2738.500000]
-[24Dec2024 00:31:23.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was slain by Zombie
-[24Dec2024 00:31:27.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> socorrow
-[24Dec2024 00:31:34.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dnde estas w
-[24Dec2024 00:31:44.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
-[24Dec2024 00:31:44.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
-[24Dec2024 00:31:44.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was slain by Zombie
-[24Dec2024 00:31:44.353] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
-[24Dec2024 00:31:48.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:54467] logged in with entity id 1602 at (-91.35457206858021, 45.60376365469679, 2642.4601884379376)
-[24Dec2024 00:31:48.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
-[24Dec2024 00:31:49.011] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
-[24Dec2024 00:31:49.202] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
-[24Dec2024 00:31:49.203] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
-[24Dec2024 00:31:51.181] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 00:31:52.184] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 00:31:52.184] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
-[24Dec2024 00:36:58.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
-[24Dec2024 00:37:04.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
-[24Dec2024 00:40:10.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ZZZ
-[24Dec2024 00:40:21.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ZZZZ
-[24Dec2024 00:40:24.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> zzzzz
-[24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
-[24Dec2024 00:40:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
-[24Dec2024 00:40:34.290] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
-[24Dec2024 00:41:15.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> kik
-[24Dec2024 00:41:18.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que menso
-[24Dec2024 00:41:22.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no puede voar lol
-[24Dec2024 00:41:27.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> gg
-[24Dec2024 00:41:55.451] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:53753] logged in with entity id 3551 at (-65.5, 64.0, 2621.5)
-[24Dec2024 00:41:55.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
-[24Dec2024 00:41:55.498] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
-[24Dec2024 00:41:55.696] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
-[24Dec2024 00:41:55.696] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 00:41:57.427] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 00:41:58.432] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 00:41:58.432] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
-[24Dec2024 00:42:05.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -255.500000, 112.500000, 2765.500000]
-[24Dec2024 00:43:57.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> chat
-[24Dec2024 00:44:05.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya vieron esta aldea o es nueva
-[24Dec2024 00:44:23.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no
-[24Dec2024 00:44:35.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> el que está como a 500 bloques?
-[24Dec2024 00:44:56.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> -354
-[24Dec2024 00:45:00.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> 99
-[24Dec2024 00:45:10.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> 2762
-[24Dec2024 00:46:24.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> solo hay dos aldeanos
-[24Dec2024 00:46:37.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a nu
-[24Dec2024 00:46:38.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
-[24Dec2024 00:46:42.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> encontré otra
-[24Dec2024 00:47:40.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> -596 68 2504
-[24Dec2024 00:47:59.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to AlanJCR]
-[24Dec2024 00:48:31.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[24Dec2024 00:48:37.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> me dijieron que eres lesbiana
-[24Dec2024 00:48:39.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> eso es cierto?
-[24Dec2024 00:48:46.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> we
-[24Dec2024 00:48:52.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> las lesbiana solo son mujeres
-[24Dec2024 00:49:03.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero te gustan las mujeres?
-[24Dec2024 00:49:33.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> suicidate
-[24Dec2024 00:50:02.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> como que los aldeanos tendras destruidas sus casas
-[24Dec2024 00:50:03.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> jejej
-[24Dec2024 00:50:53.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to AlanJCR]
-[24Dec2024 00:51:03.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -89.500000, 121.500000, 2646.500000]
-[24Dec2024 00:51:17.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported AlanJCR to Doglas777]
-[24Dec2024 00:52:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> mauro
-[24Dec2024 00:52:45.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> on tas
-[24Dec2024 00:52:52.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> abajo de la base
-[24Dec2024 00:52:56.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> minare
-[24Dec2024 00:53:01.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ya tienes un crasu?
-[24Dec2024 00:53:07.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> no w
-[24Dec2024 00:53:25.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> gg
-[24Dec2024 00:53:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> si me da un besito bien puercote le doy uno
-[24Dec2024 00:53:56.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> o mjr te la mamo
-[24Dec2024 00:54:04.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> prefiero el amor
-[24Dec2024 00:54:09.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> antes del sexo
-[24Dec2024 00:54:11.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ba
-[24Dec2024 00:54:31.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
-[24Dec2024 00:54:37.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
-[24Dec2024 00:54:48.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> hdsptm
-[24Dec2024 00:55:15.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[24Dec2024 00:55:26.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> crees que deberiamos ampliar la isla
-[24Dec2024 00:55:31.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> se
-[24Dec2024 00:55:40.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> trae tierra
-[24Dec2024 00:55:47.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> deja voy a minar
-[24Dec2024 00:55:52.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> con void mauro
-[24Dec2024 00:55:55.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> tengo un poco
-[24Dec2024 00:56:08.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> nos cargó la burger
-[24Dec2024 00:56:35.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a ustedes
-[24Dec2024 00:56:43.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> porque vapor tambien puede entraar a cuevas
-[24Dec2024 00:56:44.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> gg
-[24Dec2024 00:56:51.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pero yo estoy aqui
-[24Dec2024 00:56:53.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> bobo
-[24Dec2024 00:56:54.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> yiyi
-[24Dec2024 00:56:59.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ash
-[24Dec2024 00:57:11.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan tapa todo
-[24Dec2024 00:57:13.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> baboso
-[24Dec2024 00:57:14.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> XDD
-[24Dec2024 00:57:23.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> aca abajo hay techo
-[24Dec2024 00:57:59.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> AAAAAAA
-[24Dec2024 00:58:15.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> corre tacaz
-[24Dec2024 00:58:29.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> estaba sobre mi
-[24Dec2024 00:58:31.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m la pelo
-[24Dec2024 00:58:32.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> XDDDD
-[24Dec2024 00:58:33.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> AAAA
-[24Dec2024 00:59:07.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> Y la rosemary?
-[24Dec2024 00:59:11.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> y el valem?
-[24Dec2024 00:59:15.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> cuando salen
-[24Dec2024 00:59:17.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> valem me ha acosasdo pero en cuevas
-[24Dec2024 00:59:23.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> igual
-[24Dec2024 00:59:25.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> mi novia no se que paso
-[24Dec2024 00:59:28.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> bueno mauro
-[24Dec2024 00:59:30.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> vamo
-[24Dec2024 00:59:43.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ba
-[24Dec2024 01:01:45.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ahi
-[24Dec2024 01:01:48.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> esta m novia
-[24Dec2024 01:01:48.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died
-[24Dec2024 01:01:53.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> que carajos
-[24Dec2024 01:01:55.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 died
-[24Dec2024 01:02:04.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> la vieron o no
-[24Dec2024 01:02:06.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m biolo
-[24Dec2024 01:02:08.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> si la vimos
-[24Dec2024 01:05:50.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Take Aim]
-[24Dec2024 01:08:49.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[24Dec2024 01:08:54.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> q
-[24Dec2024 01:08:57.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el pinche we de la niebla
-[24Dec2024 01:09:02.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> hizo respawn en la casa
-[24Dec2024 01:09:03.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> q
-[24Dec2024 01:09:03.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> gg
-[24Dec2024 01:09:09.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> gg
-[24Dec2024 01:09:18.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> por eso no tiene que ser tan grande
-[24Dec2024 01:09:18.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> yiyi
-[24Dec2024 01:09:25.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> mentiroso
-[24Dec2024 01:09:28.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> como sabes eso
-[24Dec2024 01:09:31.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> pues we
-[24Dec2024 01:09:36.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> tienes mas radio de aparicion
-[24Dec2024 01:09:39.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> es logica
-[24Dec2024 01:09:51.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> pero nos aguantamos como hombrs
-[24Dec2024 01:10:59.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -588.500000, 70.500000, 2510.500000]
-[24Dec2024 01:12:44.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported Doglas777 to -91.500000, 121.500000, 2648.500000]
-[24Dec2024 01:12:57.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
-[24Dec2024 01:13:00.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a
-[24Dec2024 01:13:02.998] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
-[24Dec2024 01:13:02.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
-[24Dec2024 01:13:02.998] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
-[24Dec2024 01:14:08.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 01:14:10.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
-[24Dec2024 01:14:17.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> subre
-[24Dec2024 01:14:24.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 01:14:27.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> no mames
-[24Dec2024 01:16:25.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> loco
-[24Dec2024 01:18:11.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
-[24Dec2024 01:18:18.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
-[24Dec2024 01:18:41.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:18:47.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:19:34.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 01:19:41.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 01:20:12.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 01:20:18.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 01:20:56.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was doomed to fall by Skeleton
-[24Dec2024 01:21:19.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:21:27.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:21:34.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was doomed to fall by Skeleton
-[24Dec2024 01:22:33.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 01:22:37.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ahorita vuelvo
-[24Dec2024 01:22:39.037] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
-[24Dec2024 01:22:39.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
-[24Dec2024 01:22:39.038] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
-[24Dec2024 01:22:39.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 01:23:28.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:23:34.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:23:54.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:24:05.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie
-[24Dec2024 01:24:22.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:24:35.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:25:14.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:25:21.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:25:35.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie Villager
-[24Dec2024 01:25:48.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie Villager
-[24Dec2024 01:26:02.688] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
-[24Dec2024 01:26:02.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
-[24Dec2024 01:26:02.689] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
-[24Dec2024 01:27:06.888] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:53961] logged in with entity id 15079 at (-32.85520454726259, -46.0, 2564.6910611587587)
-[24Dec2024 01:27:06.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
-[24Dec2024 01:27:06.897] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
-[24Dec2024 01:27:07.607] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
-[24Dec2024 01:27:07.608] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 01:27:08.340] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 01:27:09.298] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 01:27:09.299] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
-[24Dec2024 01:27:19.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 tried to swim in lava to escape Zombie Villager
-[24Dec2024 01:27:25.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie Villager
-[24Dec2024 01:27:41.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 01:27:47.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 01:28:04.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 01:28:14.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> doglas amor dame tp
-[24Dec2024 01:28:23.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 01:28:45.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was bitten by Zombie
-[24Dec2024 01:28:52.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was bitten by Zombie
-[24Dec2024 01:29:25.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Hot Stuff]
-[24Dec2024 01:29:29.344] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50021] logged in with entity id 16421 at (-96.57012082465752, 120.0, 2646.6531753909767)
-[24Dec2024 01:29:29.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
-[24Dec2024 01:29:29.388] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
-[24Dec2024 01:29:29.618] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
-[24Dec2024 01:29:29.619] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
-[24Dec2024 01:29:32.412] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 01:29:33.413] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 01:29:33.413] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
-[24Dec2024 01:29:39.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 tried to swim in lava to escape Zombie
-[24Dec2024 01:29:46.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 tried to swim in lava to escape Zombie
-[24Dec2024 01:29:54.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 01:30:51.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> logre salir alan jajaja]
-[24Dec2024 01:31:14.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 01:31:19.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lol
-[24Dec2024 01:31:23.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan esta aqui?
-[24Dec2024 01:31:50.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 01:32:26.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 01:36:01.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 01:37:00.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 01:38:09.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> douglas un tpsito
-[24Dec2024 01:38:27.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported tacaz1707 to Doglas777]
-[24Dec2024 01:38:35.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> gracias papu
-[24Dec2024 01:38:51.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m estaban biolando
-[24Dec2024 01:40:18.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> es para farmear alv
-[24Dec2024 01:40:25.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q cosa
-[24Dec2024 01:40:32.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ballas
-[24Dec2024 01:40:48.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> despues las pondre
-[24Dec2024 01:40:52.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ba
-[24Dec2024 01:41:07.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos m biolaron orrible alla abajo
-[24Dec2024 01:41:15.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a mi tambien w
-[24Dec2024 01:41:35.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> es q los sombis con cana estan rotos
-[24Dec2024 01:42:07.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> son bien rompe huevos
-[24Dec2024 01:42:17.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y con ender pearl son bien bobis
-[24Dec2024 01:42:24.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> si w nms no m dejaban salir
-[24Dec2024 01:43:11.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aaaaa
-[24Dec2024 01:43:14.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> hice mal esta parte
-[24Dec2024 01:43:16.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aaaaaaaaaa
-[24Dec2024 01:43:19.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos
-[24Dec2024 01:43:29.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
-[24Dec2024 01:43:36.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
-[24Dec2024 01:43:46.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> pinche mm guebo
-[24Dec2024 01:45:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Teleported tacaz1707 to Doglas777]
-[24Dec2024 01:45:42.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dnde estamos w
-[24Dec2024 01:45:51.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> escondidos
-[24Dec2024 01:47:47.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tienes hacha w
-[24Dec2024 01:48:21.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> si w
-[24Dec2024 01:48:40.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> AAAAA
-[24Dec2024 01:48:46.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> cuando va aparecer este carnal
-[24Dec2024 01:48:47.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> q paso w
-[24Dec2024 01:49:21.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> q buskas w
-[24Dec2024 01:49:33.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es que aparece un mob spooky
-[24Dec2024 01:49:41.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya viste uno de ellos
-[24Dec2024 01:49:44.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> la arana?
-[24Dec2024 01:49:54.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no w
-[24Dec2024 01:49:59.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es uno rojo
-[24Dec2024 01:50:10.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> la q estaba en el arbol?
-[24Dec2024 01:50:25.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tenia piernas?
-[24Dec2024 01:50:27.743] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:54711] logged in with entity id 19762 at (-84.75592446366807, 120.0, 2649.237500011921)
-[24Dec2024 01:50:27.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
-[24Dec2024 01:50:27.781] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
-[24Dec2024 01:50:28.006] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
-[24Dec2024 01:50:28.006] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
-[24Dec2024 01:50:29.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> o el vrga ese de la lluvia
-[24Dec2024 01:50:29.530] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 01:50:30.532] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 01:50:30.533] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
-[24Dec2024 01:50:35.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> ayudaa
-[24Dec2024 01:50:39.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> la que te mato es mi novia
-[24Dec2024 01:50:51.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> corre alan
-[24Dec2024 01:50:54.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> nms w ya sali d ahi
-[24Dec2024 01:51:15.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> t hago tp
-[24Dec2024 01:51:34.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> y si m sacrifico para q salga?
-[24Dec2024 01:51:39.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no we
-[24Dec2024 01:51:45.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lo quiero matar
-[24Dec2024 01:51:51.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tiene como 400 de vida
-[24Dec2024 01:52:12.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> nos escuchas?
-[24Dec2024 01:52:18.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a quin
-[24Dec2024 01:52:22.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> a nosotros
-[24Dec2024 01:52:27.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no
-[24Dec2024 01:52:35.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> a ta
-[24Dec2024 01:52:38.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya los escuche
-[24Dec2024 01:52:49.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> akab
-[24Dec2024 01:52:51.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[24Dec2024 01:52:52.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> sal
-[24Dec2024 01:52:57.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> quiero que aparezca
-[24Dec2024 01:53:34.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> alan
-[24Dec2024 01:53:35.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> baja
-[24Dec2024 01:53:44.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no te hara nada
-[24Dec2024 01:54:18.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> sabes lo peor
-[24Dec2024 01:54:26.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que el hombnre de la niebla sale aqui
-[24Dec2024 01:54:30.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya me tope lol
-[24Dec2024 01:54:38.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> y puede romper bloques
-[24Dec2024 01:54:41.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no estamos seguros
-[24Dec2024 01:55:05.084] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AlanJCR lost connection: Disconnected
-[24Dec2024 01:55:05.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR left the game
-[24Dec2024 01:55:05.085] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client AlanJCR
-[24Dec2024 01:55:40.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qyueres ver un trucazo
-[24Dec2024 01:55:55.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aqui
-[24Dec2024 01:56:14.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died because of Vapor
-[24Dec2024 01:58:01.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Spider
-[24Dec2024 01:58:09.986] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
-[24Dec2024 01:58:09.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
-[24Dec2024 01:58:09.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Spider
-[24Dec2024 01:58:09.994] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
-[24Dec2024 01:58:43.094] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:54103] logged in with entity id 20761 at (-49.666895862376094, 67.0, 2667.7045853018435)
-[24Dec2024 01:58:43.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
-[24Dec2024 01:58:43.131] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
-[24Dec2024 01:58:43.309] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
-[24Dec2024 01:58:43.309] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 01:58:44.953] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 01:58:45.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 01:58:45.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
-[24Dec2024 02:00:00.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tienes arena?
-[24Dec2024 02:00:41.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 died because of Vapor
-[24Dec2024 02:00:43.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall by Zombie
-[24Dec2024 02:00:50.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall by Zombie
-[24Dec2024 02:00:53.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 died
-[24Dec2024 02:01:11.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died
-[24Dec2024 02:01:18.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> NO MAMES
-[24Dec2024 02:01:20.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 died because of Skeleton
-[24Dec2024 02:01:25.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el de rojo aparece dos veces o que pedo
-[24Dec2024 02:01:33.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ala berga
-[24Dec2024 02:01:37.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
-[24Dec2024 02:01:43.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
-[24Dec2024 02:02:01.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was blown up by Creeper
-[24Dec2024 02:02:08.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was blown up by Creeper
-[24Dec2024 02:02:36.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was pummeled by Spider
-[24Dec2024 02:02:42.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was pummeled by Spider
-[24Dec2024 02:06:32.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> por los pelos de la panocha
-[24Dec2024 02:10:18.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> casi m biola el negro ese w
-[24Dec2024 02:10:45.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> x
-[24Dec2024 02:10:48.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> d
-[24Dec2024 02:11:11.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo digo
-[24Dec2024 02:11:16.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> para q este encantamiento?
-[24Dec2024 02:11:19.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que hagamas que se caiga el perro de alan
-[24Dec2024 02:11:32.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> alaberga
-[24Dec2024 02:12:15.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dnd esta esa prra mmda
-[24Dec2024 02:12:30.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que cosa
-[24Dec2024 02:12:38.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> el negro ese
-[24Dec2024 02:12:42.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> son sonidos
-[24Dec2024 02:12:50.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> cuando escuches el silbido ahi si
-[24Dec2024 02:12:52.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aparecio
-[24Dec2024 02:12:58.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos ba
-[24Dec2024 02:14:15.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> zzzz
-[24Dec2024 02:14:32.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m cai alb
-[24Dec2024 02:14:58.044] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AlanJCR[/100.109.225.113:54777] logged in with entity id 24398 at (-76.11787353667025, 121.0, 2641.714370678238)
-[24Dec2024 02:14:58.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR joined the game
-[24Dec2024 02:14:58.084] [Server thread/INFO] [Jade/]: Syncing config to AlanJCR (690e2115-c513-380b-b061-413c46de03be)
-[24Dec2024 02:14:58.217] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of AlanJCR (18)
-[24Dec2024 02:14:58.218] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to AlanJCR
-[24Dec2024 02:14:59.762] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 02:15:00.762] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 690e2115-c513-380b-b061-413c46de03be
-[24Dec2024 02:15:00.763] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player AlanJCR (690e2115-c513-380b-b061-413c46de03be) successfully connected to voice chat
-[24Dec2024 02:15:17.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
-[24Dec2024 02:15:24.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
-[24Dec2024 02:15:46.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> maurooo
-[24Dec2024 02:15:56.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deja agarro mis cosas
-[24Dec2024 02:16:13.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> vamo
-[24Dec2024 02:16:17.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
-[24Dec2024 02:16:22.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> xdddddddddddddddddddd
-[24Dec2024 02:16:23.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> q pndj
-[24Dec2024 02:16:30.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
-[24Dec2024 02:16:35.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR is bleeding. AlanJCR was blown up by Creeper
-[24Dec2024 02:16:40.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AlanJCR was blown up by Creeper
-[24Dec2024 02:17:03.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> quien tiene comida
-[24Dec2024 02:17:14.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AlanJCR> weeee
-[24Dec2024 02:18:15.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ALAN QUE BUEN MOMO
-[24Dec2024 02:19:11.286] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7 timed out
-[24Dec2024 02:19:11.286] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player tacaz1707
-[24Dec2024 02:19:11.287] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 02:19:30.040] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Timed out
-[24Dec2024 02:19:30.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
-[24Dec2024 02:19:30.041] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
-[24Dec2024 02:19:51.697] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:54385] logged in with entity id 25387 at (-88.05198338952053, 40.0, 2646.6220898155893)
-[24Dec2024 02:19:51.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
-[24Dec2024 02:19:51.733] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
-[24Dec2024 02:19:51.913] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
-[24Dec2024 02:19:51.913] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
-[24Dec2024 02:19:54.887] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 02:19:55.884] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
-[24Dec2024 02:19:55.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
-[24Dec2024 02:20:49.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qye es bajo minero
-[24Dec2024 02:28:06.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
-[24Dec2024 02:28:08.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
-[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
-[24Dec2024 02:28:10.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
-[24Dec2024 02:28:10.834] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
-[24Dec2024 02:36:05.244] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50102] logged in with entity id 28322 at (-85.93912243445844, 120.0, 2649.699999988079)
-[24Dec2024 02:36:05.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
-[24Dec2024 02:36:05.299] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
-[24Dec2024 02:36:05.507] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
-[24Dec2024 02:36:05.508] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
-[24Dec2024 02:36:08.765] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 02:36:09.766] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 02:36:09.766] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
-[24Dec2024 02:36:19.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> qye rico es el pene
-[24Dec2024 02:36:55.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
-[24Dec2024 02:37:01.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
-[24Dec2024 02:37:06.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos
-[24Dec2024 02:40:42.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ira w
-[24Dec2024 02:40:49.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> escudo de hierro
-[24Dec2024 02:41:25.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 02:41:52.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 02:42:16.384] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
-[24Dec2024 02:42:16.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
-[24Dec2024 02:42:16.385] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
-[24Dec2024 02:42:30.593] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:50112] logged in with entity id 29542 at (-87.89597014936464, 120.0, 2649.3893495321754)
-[24Dec2024 02:42:30.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
-[24Dec2024 02:42:30.634] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
-[24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
-[24Dec2024 02:42:30.812] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
-[24Dec2024 02:42:33.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 02:42:34.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
-[24Dec2024 02:42:34.791] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
-[24Dec2024 02:45:59.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Not Today, Thank You]
-[24Dec2024 02:46:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> cirre w
-[24Dec2024 02:47:26.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> y nunca volvio
-[24Dec2024 02:47:43.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo digo que anda con isai
-[24Dec2024 02:47:55.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> oye w esos monumentos cn diamante no se pueden picar vdad?
-[24Dec2024 02:48:15.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> quieres ver que pasa si lo hacemos?
-[24Dec2024 02:48:23.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> nos biolan vdad
-[24Dec2024 02:48:25.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the time to 1000]
-[24Dec2024 02:49:44.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> desde aki beo
-[24Dec2024 02:50:01.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> su ptm
-[24Dec2024 02:50:27.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall
-[24Dec2024 02:50:39.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es la cratura mas op en cuanto daño
-[24Dec2024 02:50:41.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dificil dificil no ta
-[24Dec2024 02:50:51.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
-[24Dec2024 02:50:58.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> es tan op
-[24Dec2024 02:51:02.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> que puede matar al negro
-[24Dec2024 02:51:20.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> si quieres te doy su montura
-[24Dec2024 02:52:21.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
-[24Dec2024 02:52:25.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
-[24Dec2024 02:52:47.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 was doomed to fall
-[24Dec2024 02:52:53.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall
-[24Dec2024 02:52:57.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 was doomed to fall
-[24Dec2024 02:52:59.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
-[24Dec2024 02:53:51.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall
-[24Dec2024 02:53:57.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
-[24Dec2024 02:54:36.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
-[24Dec2024 02:54:42.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Diamond Golem
-[24Dec2024 02:55:03.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Diamonds!]
-[24Dec2024 02:55:04.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
-[24Dec2024 02:55:10.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> khe riko
-[24Dec2024 02:55:11.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 02:55:21.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> lo mataste cabron?
-[24Dec2024 02:55:29.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> si w alaberga
-[24Dec2024 02:55:36.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> te iba a dar su montadura
-[24Dec2024 02:55:37.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> che puñetas
-[24Dec2024 02:55:44.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> pasala
-[24Dec2024 02:55:51.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> hay otro x alla
-[24Dec2024 02:55:51.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ibas a tener una creatura op que puede matar al nigga
-[24Dec2024 02:55:53.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tonto
-[24Dec2024 02:56:06.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> pasa la montura w
-[24Dec2024 02:56:15.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> hay otro de estos alla
-[24Dec2024 02:56:32.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> tienes cama?
-[24Dec2024 02:56:33.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 02:57:05.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['Angry Creeper'/32767, l='ServerLevel[world]', x=-56.40, y=60.30, z=2637.30] died: Angry Creeper drowned
-[24Dec2024 02:57:35.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> dnde estas w
-[24Dec2024 02:57:46.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> haz d dia
-[24Dec2024 02:59:09.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
-[24Dec2024 02:59:16.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
-[24Dec2024 03:00:12.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> doglas w
-[24Dec2024 03:00:29.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q
-[24Dec2024 03:00:42.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> haz d dia w
-[24Dec2024 03:00:46.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> nopis
-[24Dec2024 03:00:55.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was shot by Skeleton
-[24Dec2024 03:01:02.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was shot by Skeleton
-[24Dec2024 03:01:13.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 03:01:17.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 03:01:19.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 03:01:35.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Zombie
-[24Dec2024 03:01:42.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Zombie
-[24Dec2024 03:01:43.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 03:03:42.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died
-[24Dec2024 03:03:49.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 died
-[24Dec2024 03:04:30.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> como se hacen
-[24Dec2024 03:04:37.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> las lamparas
-[24Dec2024 03:04:52.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> antorcha y la rodeas cn pepitas de hierro
-[24Dec2024 03:05:00.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> aaaaaa
-[24Dec2024 03:05:06.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> mejor los saco de creativo
-[24Dec2024 03:05:09.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> pasa montura w
-[24Dec2024 03:05:14.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
-[24Dec2024 03:05:16.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> xd
-[24Dec2024 03:05:34.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> q bno q esa mmda no nada
-[24Dec2024 03:05:42.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
-[24Dec2024 03:09:13.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
-[24Dec2024 03:09:13.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
-[24Dec2024 03:09:13.636] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
-[24Dec2024 03:12:21.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
-[24Dec2024 03:16:26.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
-[24Dec2024 03:16:32.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
-[24Dec2024 03:18:44.287] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
-[24Dec2024 03:18:44.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
-[24Dec2024 03:18:44.288] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
-[24Dec2024 03:19:14.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[24Dec2024 03:19:14.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24Dec2024 03:19:14.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24Dec2024 03:19:14.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24Dec2024 03:19:15.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[24Dec2024 03:19:15.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[24Dec2024 03:19:15.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[24Dec2024 03:19:15.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[24Dec2024 03:19:15.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24Dec2024 03:19:15.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24Dec2024 03:19:15.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[24Dec2024 03:19:15.256] [Server thread/INFO] [Framework/]: Unloading server configs...
+[25Dec2024 00:02:47.290] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[25Dec2024 00:02:47.335] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[25Dec2024 00:02:47.345] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[25Dec2024 00:02:47.345] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
+[25Dec2024 00:02:47.386] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[25Dec2024 00:02:47.401] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[25Dec2024 00:02:47.446] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1722 advancements
+[25Dec2024 00:02:47.449] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[25Dec2024 00:02:47.493] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[25Dec2024 00:02:47.499] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_shipwreck_supply_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_abandoned_mineshaft_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.508] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_simple_dungeon_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_nether_bridge_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_fr - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.509] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id thirst:add_loot_bastion_other_bc - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: thirst:add_loot_table
+[25Dec2024 00:02:47.510] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[25Dec2024 00:02:48.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Dec2024 00:02:48.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Dec2024 00:02:48.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Dec2024 00:02:48.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Dec2024 00:02:48.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Dec2024 00:02:48.776] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Dec2024 00:02:48.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Dec2024 00:02:48.861] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Dec2024 00:02:48.861] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Dec2024 00:02:48.862] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Dec2024 00:02:49.089] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[25Dec2024 00:02:49.089] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[25Dec2024 00:02:49.089] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[25Dec2024 00:02:49.090] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[25Dec2024 00:02:49.090] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[25Dec2024 00:02:49.091] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[25Dec2024 00:02:49.091] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[25Dec2024 00:02:49.091] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[25Dec2024 00:02:49.092] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[25Dec2024 00:02:49.092] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[25Dec2024 00:02:49.099] [Server thread/INFO] [Framework/]: Loading server configs...
+[25Dec2024 00:02:49.267] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Dec2024 00:02:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Dec2024 00:03:04.356] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.388] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.401] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.423] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.434] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.441] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.449] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.459] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.471] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.476] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:04.928] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:05.452] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:05.931] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:06.462] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:06.929] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Dec2024 00:03:07.428] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[25Dec2024 00:03:07.929] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[25Dec2024 00:03:08.267] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8339 ms
+[25Dec2024 00:03:08.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.388s)! For help, type "help"
+[25Dec2024 00:03:08.709] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Dec2024 00:03:08.723] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[25Dec2024 00:03:08.734] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.109.68.31:24454
+[25Dec2024 00:04:35.775] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Doglas777[/100.119.44.74:49867] logged in with entity id 73 at (-98.30297487131764, 125.0, 2646.077411036596)
+[25Dec2024 00:04:35.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 joined the game
+[25Dec2024 00:04:35.936] [Server thread/INFO] [Jade/]: Syncing config to Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf)
+[25Dec2024 00:04:38.049] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Doglas777 (18)
+[25Dec2024 00:04:38.051] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Doglas777
+[25Dec2024 00:04:43.677] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[25Dec2024 00:04:44.677] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1bdb8232-be48-3cf6-b686-dd936bd66cbf
+[25Dec2024 00:04:44.682] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Doglas777 (1bdb8232-be48-3cf6-b686-dd936bd66cbf) successfully connected to voice chat
+[25Dec2024 00:09:24.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[25Dec2024 00:09:52.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[25Dec2024 00:11:24.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
+[25Dec2024 00:11:30.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
+[25Dec2024 00:11:44.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! 0.29221566772449137,-10.390669292832285,0.0
