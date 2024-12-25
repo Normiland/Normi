@@ -1045,6 +1045,7 @@
       "minecraft:spider": "2024-12-21 02:14:52 +0000",
       "minecraft:creeper": "2024-12-21 01:53:41 +0000",
       "minecraft:zombified_piglin": "2024-12-23 02:06:49 +0000",
+      "minecraft:enderman": "2024-12-25 02:49:11 +0000",
       "minecraft:zombie": "2024-12-21 00:53:37 +0000",
       "minecraft:drowned": "2024-12-22 03:20:04 +0000",
       "minecraft:zombie_villager": "2024-12-21 03:09:07 +0000"
@@ -2836,6 +2837,30 @@
   "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2024-12-25 01:01:10 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_helmet": {
+    "criteria": {
+      "has_grass_block": "2024-12-25 02:49:11 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_leggings": {
+    "criteria": {
+      "has_grass_block": "2024-12-25 02:49:11 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_boots": {
+    "criteria": {
+      "has_grass_block": "2024-12-25 02:49:11 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_chestplate": {
+    "criteria": {
+      "has_grass_block": "2024-12-25 02:49:11 +0000"
     },
     "done": true
   },
