@@ -956,3 +956,12 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Dec2024 00:11:24.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
 [25Dec2024 00:11:30.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
 [25Dec2024 00:11:44.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 moved too quickly! 0.29221566772449137,-10.390669292832285,0.0
+[25Dec2024 00:14:26.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 is bleeding. Doglas777 fell from a high place
+[25Dec2024 00:14:32.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 fell from a high place
+[25Dec2024 00:17:31.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[25Dec2024 00:20:18.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has reached the goal [Is this THE end?]
+[25Dec2024 00:20:22.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 has made the advancement [The Tear Of The Man]
+[25Dec2024 00:20:42.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[25Dec2024 00:22:31.539] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:50931] logged in with entity id 3024 at (-96.77824735129028, 120.0, 2649.416229048652)
+[25Dec2024 00:22:31.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[25Dec2024 00:22:31.611] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
