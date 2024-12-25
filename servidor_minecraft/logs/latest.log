@@ -1192,3 +1192,21 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [25Dec2024 00:59:49.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
 [25Dec2024 01:01:18.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
 [25Dec2024 01:01:43.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> gracias men
+[25Dec2024 01:05:25.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> xd
+[25Dec2024 01:08:19.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> me voy a bañar
+[25Dec2024 01:08:24.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ya regreso
+[25Dec2024 01:08:25.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ba
+[25Dec2024 01:08:26.995] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[25Dec2024 01:08:26.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[25Dec2024 01:08:26.997] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[25Dec2024 01:09:26.240] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
+[25Dec2024 01:09:26.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[25Dec2024 01:09:26.241] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
+[25Dec2024 01:10:06.223] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:51355] logged in with entity id 15220 at (-108.69999998807907, 33.0, 2664.699999988079)
+[25Dec2024 01:10:06.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
+[25Dec2024 01:10:06.244] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[25Dec2024 01:10:06.848] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[25Dec2024 01:10:06.849] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[25Dec2024 01:10:10.891] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[25Dec2024 01:10:11.879] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[25Dec2024 01:10:11.879] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat

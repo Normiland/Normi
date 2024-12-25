@@ -2601,6 +2601,24 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/enderman_leggings": {
+    "criteria": {
+      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_boots": {
+    "criteria": {
+      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/enderman_chestplate": {
+    "criteria": {
+      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/strawhat_boots": {
     "criteria": {
       "has_white_wool": "2024-12-25 00:35:08 +0000"
@@ -2610,12 +2628,6 @@
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2024-12-25 00:35:08 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/enderman_leggings": {
-    "criteria": {
-      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
     },
     "done": true
   },
@@ -2643,33 +2655,69 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2024-12-25 00:43:15 +0000"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/enderman_boots": {
-    "criteria": {
-      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2024-12-25 00:35:08 +0000"
     },
     "done": true
   },
-  "knightquest:recipes/misc/enderman_chestplate": {
-    "criteria": {
-      "has_ender_pearl": "2024-12-25 00:35:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2024-12-25 00:35:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-25 00:43:15 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/veteran_helmet": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shinobi_leggings": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/veteran_chestplate": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shinobi_boots": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shinobi_chestplate": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/veteran_boots": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shinobi_helmet": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/veteran_leggings": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-25 01:02:50 +0000"
     },
     "done": true
   },
