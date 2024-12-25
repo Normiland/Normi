@@ -1359,3 +1359,6 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [25Dec2024 03:13:48.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
 [25Dec2024 03:13:48.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
 [25Dec2024 03:13:48.343] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777
+[25Dec2024 03:17:42.738] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: tacaz1707 lost connection: Disconnected
+[25Dec2024 03:17:42.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 left the game
+[25Dec2024 03:17:42.739] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client tacaz1707
