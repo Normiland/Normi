@@ -2643,6 +2643,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-25 00:43:15 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/enderman_boots": {
     "criteria": {
       "has_ender_pearl": "2024-12-25 00:35:01 +0000"
