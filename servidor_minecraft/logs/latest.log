@@ -1346,3 +1346,16 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [25Dec2024 02:56:18.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> como q aqui no aparecen animalitos
 [25Dec2024 02:56:54.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> tienes piedra
 [25Dec2024 02:57:00.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> sip
+[25Dec2024 03:07:14.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set the weather to clear]
+[25Dec2024 03:07:58.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el qeu vuela es gay
+[25Dec2024 03:08:12.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> no qro q me follen
+[25Dec2024 03:08:35.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el que vuela es gay
+[25Dec2024 03:08:47.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> deos un caiman
+[25Dec2024 03:09:22.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 has made the advancement [Chompy]
+[25Dec2024 03:09:37.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m lo cogi
+[25Dec2024 03:10:16.190] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Creeper['Angry Creeper'/35262, l='ServerLevel[world]', x=-87.19, y=65.00, z=2638.50] died: Angry Creeper fell from a high place
+[25Dec2024 03:12:33.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ojala tener memorizado la cas
+[25Dec2024 03:13:44.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> voy a cenar
+[25Dec2024 03:13:48.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doglas777 lost connection: Disconnected
+[25Dec2024 03:13:48.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doglas777 left the game
+[25Dec2024 03:13:48.343] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Doglas777

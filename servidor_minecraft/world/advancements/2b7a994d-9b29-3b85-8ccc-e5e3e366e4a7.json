@@ -2885,6 +2885,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2024-12-25 03:09:22 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/blaze_boots": {
     "criteria": {
       "has_ratman_eye": "2024-12-25 02:43:24 +0000"
