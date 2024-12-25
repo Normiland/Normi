@@ -965,3 +965,44 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Dec2024 00:22:31.539] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: tacaz1707[/100.102.237.7:50931] logged in with entity id 3024 at (-96.77824735129028, 120.0, 2649.416229048652)
 [25Dec2024 00:22:31.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 joined the game
 [25Dec2024 00:22:31.611] [Server thread/INFO] [Jade/]: Syncing config to tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7)
+[25Dec2024 00:22:32.893] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of tacaz1707 (18)
+[25Dec2024 00:22:32.895] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to tacaz1707
+[25Dec2024 00:22:38.255] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[25Dec2024 00:22:39.269] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7
+[25Dec2024 00:22:39.270] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player tacaz1707 (2b7a994d-9b29-3b85-8ccc-e5e3e366e4a7) successfully connected to voice chat
+[25Dec2024 00:23:09.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q
+[25Dec2024 00:23:13.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> ash
+[25Dec2024 00:23:33.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[25Dec2024 00:23:49.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[25Dec2024 00:24:03.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 fell from a high place
+[25Dec2024 00:24:09.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 fell from a high place
+[25Dec2024 00:24:40.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Man From The Fog
+[25Dec2024 00:24:46.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Man From The Fog
+[25Dec2024 00:26:39.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:26:45.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:27:08.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:27:15.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:27:52.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:27:58.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:28:19.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 died because of Diamond Golem
+[25Dec2024 00:28:21.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
+[25Dec2024 00:28:36.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:28:46.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was slain by Diamond Golem
+[25Dec2024 00:29:28.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 is bleeding. tacaz1707 was doomed to fall
+[25Dec2024 00:29:34.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tacaz1707 was doomed to fall
+[25Dec2024 00:30:03.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> oye w
+[25Dec2024 00:30:11.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> q
+[25Dec2024 00:30:16.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> m dice 10%
+[25Dec2024 00:30:23.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> q le hago
+[25Dec2024 00:30:58.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> dale comida
+[25Dec2024 00:31:00.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> manzanas
+[25Dec2024 00:31:05.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> yo tengo algo de comida
+[25Dec2024 00:31:08.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> tienes?
+[25Dec2024 00:31:11.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> s
+[25Dec2024 00:31:44.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> ahorita voy w
+[25Dec2024 00:31:53.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Creative Mode]
+[25Dec2024 00:31:59.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> primero a dormir
+[25Dec2024 00:32:01.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <tacaz1707> zzzzz
+[25Dec2024 00:32:28.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Doglas777: Set own game mode to Survival Mode]
+[25Dec2024 00:32:30.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> no puedo
+[25Dec2024 00:32:36.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doglas777> el negro esta aqui
